@@ -2261,3 +2261,1834 @@
 2022-11-16 21:24:40,641:INFO:SubProcess assign_model() end ==================================
 2022-11-16 21:24:40,645:INFO:Fitting CountVectorizer()
 2022-11-16 21:24:40,646:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 21:57:04,035:INFO:Initializing create_model()
+2022-11-16 21:57:04,035:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 21:57:04,035:INFO:Checking exceptions
+2022-11-16 21:57:04,036:INFO:Preloading libraries
+2022-11-16 21:57:04,036:INFO:Preparing display monitor
+2022-11-16 21:57:04,046:INFO:Defining topic model
+2022-11-16 21:57:04,046:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 21:57:04,046:INFO:Defining num_topics parameter
+2022-11-16 21:57:04,046:INFO:num_topics set to: 4
+2022-11-16 21:57:04,051:INFO:LdaModel imported successfully
+2022-11-16 21:57:06,330:INFO:LdaModel trained successfully
+2022-11-16 21:57:06,331:INFO:LdaModel(num_terms=4019, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 21:57:06,332:INFO:create_model() succesfully completed......................................
+2022-11-16 21:59:31,674:INFO:PyCaret NLP Module
+2022-11-16 21:59:31,674:INFO:version 2.3.10
+2022-11-16 21:59:31,674:INFO:Initializing setup()
+2022-11-16 21:59:31,674:INFO:USI: 4a86
+2022-11-16 21:59:31,674:INFO:setup(data=(1253, 7), target=text, custom_stopwords=['test'], html=True, session_id=1213, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 21:59:31,675:INFO:Checking environment
+2022-11-16 21:59:31,675:INFO:python_version: 3.8.15
+2022-11-16 21:59:31,675:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 21:59:31,675:INFO:machine: x86_64
+2022-11-16 21:59:31,675:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 21:59:31,675:INFO:Memory: svmem(total=25769803776, available=12465999872, percent=51.6, used=13251461120, free=1716215808, active=10469425152, inactive=8964915200, wired=2782035968)
+2022-11-16 21:59:31,675:INFO:Physical Core: 4
+2022-11-16 21:59:31,675:INFO:Logical Core: 4
+2022-11-16 21:59:31,675:INFO:Checking libraries
+2022-11-16 21:59:31,675:INFO:pd==1.5.1
+2022-11-16 21:59:31,675:INFO:numpy==1.20.3
+2022-11-16 21:59:31,675:INFO:gensim==3.8.3
+2022-11-16 21:59:31,675:INFO:spacy==2.2.4
+2022-11-16 21:59:31,675:INFO:nltk==3.7
+2022-11-16 21:59:31,675:INFO:textblob==0.17.1
+2022-11-16 21:59:31,675:INFO:pyLDAvis==3.3.1
+2022-11-16 21:59:31,675:INFO:wordcloud==1.8.2.2
+2022-11-16 21:59:31,675:INFO:mlflow==1.30.0
+2022-11-16 21:59:31,675:INFO:Checking Exceptions
+2022-11-16 21:59:31,996:INFO:Preloading libraries
+2022-11-16 21:59:31,996:INFO:Preparing display monitor
+2022-11-16 21:59:32,006:INFO:Importing libraries
+2022-11-16 21:59:32,006:INFO:Declaring global variables
+2022-11-16 21:59:32,006:INFO:Input provided : dataframe
+2022-11-16 21:59:32,006:INFO:session_id set to : 1213
+2022-11-16 21:59:32,007:INFO:Copying training dataset
+2022-11-16 21:59:32,008:INFO:Importing stopwords from nltk
+2022-11-16 21:59:32,009:INFO:Removing numeric characters from the text
+2022-11-16 21:59:32,023:INFO:Removing special characters from the text
+2022-11-16 21:59:32,113:INFO:Tokenizing Words
+2022-11-16 21:59:32,264:INFO:Removing stopwords
+2022-11-16 21:59:32,374:INFO:Extracting Bigrams
+2022-11-16 21:59:32,719:INFO:Extracting Trigrams
+2022-11-16 21:59:33,258:INFO:Lemmatizing tokens
+2022-11-16 21:59:36,829:INFO:Removing stopwords after lemmatizing
+2022-11-16 21:59:36,903:INFO:Creating corpus and dictionary
+2022-11-16 21:59:36,967:INFO:Compiling processed text
+2022-11-16 21:59:36,968:INFO:Compiling information grid
+2022-11-16 21:59:36,973:INFO:setup() succesfully completed......................................
+2022-11-16 22:02:04,001:INFO:PyCaret NLP Module
+2022-11-16 22:02:04,001:INFO:version 2.3.10
+2022-11-16 22:02:04,001:INFO:Initializing setup()
+2022-11-16 22:02:04,001:INFO:USI: f8d2
+2022-11-16 22:02:04,001:INFO:setup(data=(1253, 7), target=text, custom_stopwords=['test'], html=True, session_id=1213, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:02:04,001:INFO:Checking environment
+2022-11-16 22:02:04,001:INFO:python_version: 3.8.15
+2022-11-16 22:02:04,001:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:02:04,001:INFO:machine: x86_64
+2022-11-16 22:02:04,001:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:02:04,002:INFO:Memory: svmem(total=25769803776, available=12433178624, percent=51.8, used=13284503552, free=1683566592, active=10500800512, inactive=8964038656, wired=2783703040)
+2022-11-16 22:02:04,002:INFO:Physical Core: 4
+2022-11-16 22:02:04,002:INFO:Logical Core: 4
+2022-11-16 22:02:04,002:INFO:Checking libraries
+2022-11-16 22:02:04,002:INFO:pd==1.5.1
+2022-11-16 22:02:04,002:INFO:numpy==1.20.3
+2022-11-16 22:02:04,002:INFO:gensim==3.8.3
+2022-11-16 22:02:04,002:INFO:spacy==2.2.4
+2022-11-16 22:02:04,002:INFO:nltk==3.7
+2022-11-16 22:02:04,002:INFO:textblob==0.17.1
+2022-11-16 22:02:04,002:INFO:pyLDAvis==3.3.1
+2022-11-16 22:02:04,002:INFO:wordcloud==1.8.2.2
+2022-11-16 22:02:04,002:INFO:mlflow==1.30.0
+2022-11-16 22:02:04,002:INFO:Checking Exceptions
+2022-11-16 22:02:04,315:INFO:Preloading libraries
+2022-11-16 22:02:04,315:INFO:Preparing display monitor
+2022-11-16 22:02:04,324:INFO:Importing libraries
+2022-11-16 22:02:04,325:INFO:Declaring global variables
+2022-11-16 22:02:04,325:INFO:Input provided : dataframe
+2022-11-16 22:02:04,325:INFO:session_id set to : 1213
+2022-11-16 22:02:04,325:INFO:Copying training dataset
+2022-11-16 22:02:04,326:INFO:Importing stopwords from nltk
+2022-11-16 22:02:04,327:INFO:Removing numeric characters from the text
+2022-11-16 22:02:04,341:INFO:Removing special characters from the text
+2022-11-16 22:02:04,429:INFO:Tokenizing Words
+2022-11-16 22:02:04,579:INFO:Removing stopwords
+2022-11-16 22:02:04,687:INFO:Extracting Bigrams
+2022-11-16 22:02:05,038:INFO:Extracting Trigrams
+2022-11-16 22:02:05,568:INFO:Lemmatizing tokens
+2022-11-16 22:02:09,062:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:02:09,129:INFO:Creating corpus and dictionary
+2022-11-16 22:02:09,189:INFO:Compiling processed text
+2022-11-16 22:02:09,191:INFO:Compiling information grid
+2022-11-16 22:02:09,195:INFO:setup() succesfully completed......................................
+2022-11-16 22:02:14,985:INFO:Initializing create_model()
+2022-11-16 22:02:14,985:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:02:14,985:INFO:Checking exceptions
+2022-11-16 22:02:14,985:INFO:Preloading libraries
+2022-11-16 22:02:14,985:INFO:Preparing display monitor
+2022-11-16 22:02:14,995:INFO:Defining topic model
+2022-11-16 22:02:14,995:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:02:14,996:INFO:Defining num_topics parameter
+2022-11-16 22:02:14,996:INFO:num_topics set to: 4
+2022-11-16 22:02:15,000:INFO:LdaModel imported successfully
+2022-11-16 22:02:17,195:INFO:LdaModel trained successfully
+2022-11-16 22:02:17,197:INFO:LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:02:17,197:INFO:create_model() succesfully completed......................................
+2022-11-16 22:02:23,896:INFO:Initializing assign_model()
+2022-11-16 22:02:23,896:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:02:23,896:INFO:Determining model type
+2022-11-16 22:02:23,896:INFO:model type: lda
+2022-11-16 22:02:23,896:INFO:Checking exceptions
+2022-11-16 22:02:23,896:INFO:Preloading libraries
+2022-11-16 22:02:23,896:INFO:Preparing display monitor
+2022-11-16 22:02:24,437:INFO:(2393, 13)
+2022-11-16 22:02:24,437:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:03:10,705:INFO:Initializing plot_model()
+2022-11-16 22:03:10,705:INFO:plot_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:03:10,705:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:03:10,705:INFO:Checking exceptions
+2022-11-16 22:03:10,705:INFO:Importing libraries
+2022-11-16 22:03:10,709:INFO:save_param set to False
+2022-11-16 22:03:10,709:INFO:plot type: frequency
+2022-11-16 22:03:10,710:INFO:Rendering Visual
+2022-11-16 22:03:10,710:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:03:10,710:INFO:Initializing assign_model()
+2022-11-16 22:03:10,710:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:03:10,710:INFO:Determining model type
+2022-11-16 22:03:10,710:INFO:model type: lda
+2022-11-16 22:03:10,710:INFO:Checking exceptions
+2022-11-16 22:03:10,710:INFO:Preloading libraries
+2022-11-16 22:03:10,710:INFO:Preparing display monitor
+2022-11-16 22:03:11,230:INFO:(2393, 13)
+2022-11-16 22:03:11,231:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:03:11,231:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:03:11,232:INFO:Fitting CountVectorizer()
+2022-11-16 22:03:11,233:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 22:04:14,800:INFO:PyCaret NLP Module
+2022-11-16 22:04:14,800:INFO:version 2.3.10
+2022-11-16 22:04:14,800:INFO:Initializing setup()
+2022-11-16 22:04:14,800:INFO:USI: 2450
+2022-11-16 22:04:14,800:INFO:setup(data=(1253, 7), target=text, custom_stopwords=['test'], html=True, session_id=1213, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:04:14,800:INFO:Checking environment
+2022-11-16 22:04:14,800:INFO:python_version: 3.8.15
+2022-11-16 22:04:14,800:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:04:14,800:INFO:machine: x86_64
+2022-11-16 22:04:14,800:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:04:14,800:INFO:Memory: svmem(total=25769803776, available=13103022080, percent=49.2, used=12614246400, free=2453757952, active=9744101376, inactive=8899117056, wired=2870145024)
+2022-11-16 22:04:14,801:INFO:Physical Core: 4
+2022-11-16 22:04:14,801:INFO:Logical Core: 4
+2022-11-16 22:04:14,801:INFO:Checking libraries
+2022-11-16 22:04:14,801:INFO:pd==1.5.1
+2022-11-16 22:04:14,801:INFO:numpy==1.20.3
+2022-11-16 22:04:14,845:INFO:gensim==3.8.3
+2022-11-16 22:04:15,025:INFO:spacy==2.2.4
+2022-11-16 22:04:15,153:INFO:nltk==3.7
+2022-11-16 22:04:15,169:INFO:textblob==0.17.1
+2022-11-16 22:04:15,183:INFO:pyLDAvis==3.3.1
+2022-11-16 22:04:15,189:INFO:wordcloud==1.8.2.2
+2022-11-16 22:04:15,189:INFO:mlflow==1.30.0
+2022-11-16 22:04:15,189:INFO:Checking Exceptions
+2022-11-16 22:04:15,632:INFO:Preloading libraries
+2022-11-16 22:04:15,632:INFO:Preparing display monitor
+2022-11-16 22:04:15,642:INFO:Importing libraries
+2022-11-16 22:04:15,642:INFO:Declaring global variables
+2022-11-16 22:04:15,642:INFO:Input provided : dataframe
+2022-11-16 22:04:15,642:INFO:session_id set to : 1213
+2022-11-16 22:04:15,642:INFO:Copying training dataset
+2022-11-16 22:04:15,643:INFO:Importing stopwords from nltk
+2022-11-16 22:04:15,717:INFO:Removing numeric characters from the text
+2022-11-16 22:04:15,731:INFO:Removing special characters from the text
+2022-11-16 22:04:15,813:INFO:Tokenizing Words
+2022-11-16 22:04:15,959:INFO:Removing stopwords
+2022-11-16 22:04:16,069:INFO:Extracting Bigrams
+2022-11-16 22:04:16,413:INFO:Extracting Trigrams
+2022-11-16 22:04:16,938:INFO:Lemmatizing tokens
+2022-11-16 22:04:20,339:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:04:20,407:INFO:Creating corpus and dictionary
+2022-11-16 22:04:20,535:INFO:Compiling processed text
+2022-11-16 22:04:20,537:INFO:Compiling information grid
+2022-11-16 22:04:20,541:INFO:setup() succesfully completed......................................
+2022-11-16 22:04:23,375:INFO:Initializing create_model()
+2022-11-16 22:04:23,376:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:04:23,376:INFO:Checking exceptions
+2022-11-16 22:04:23,376:INFO:Preloading libraries
+2022-11-16 22:04:23,376:INFO:Preparing display monitor
+2022-11-16 22:04:23,387:INFO:Defining topic model
+2022-11-16 22:04:23,387:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:04:23,387:INFO:Defining num_topics parameter
+2022-11-16 22:04:23,387:INFO:num_topics set to: 4
+2022-11-16 22:04:23,392:INFO:LdaModel imported successfully
+2022-11-16 22:04:25,619:INFO:LdaModel trained successfully
+2022-11-16 22:04:25,621:INFO:LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:04:25,621:INFO:create_model() succesfully completed......................................
+2022-11-16 22:04:29,055:INFO:Initializing assign_model()
+2022-11-16 22:04:29,056:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:04:29,056:INFO:Determining model type
+2022-11-16 22:04:29,056:INFO:model type: lda
+2022-11-16 22:04:29,056:INFO:Checking exceptions
+2022-11-16 22:04:29,056:INFO:Preloading libraries
+2022-11-16 22:04:29,056:INFO:Preparing display monitor
+2022-11-16 22:04:29,600:INFO:(2393, 13)
+2022-11-16 22:04:29,600:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:04:38,312:INFO:Initializing plot_model()
+2022-11-16 22:04:38,312:INFO:plot_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:04:38,313:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:04:38,313:INFO:Checking exceptions
+2022-11-16 22:04:38,313:INFO:Importing libraries
+2022-11-16 22:04:38,457:INFO:save_param set to False
+2022-11-16 22:04:38,457:INFO:plot type: frequency
+2022-11-16 22:04:38,457:INFO:Rendering Visual
+2022-11-16 22:04:38,458:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:04:38,458:INFO:Initializing assign_model()
+2022-11-16 22:04:38,458:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:04:38,458:INFO:Determining model type
+2022-11-16 22:04:38,458:INFO:model type: lda
+2022-11-16 22:04:38,458:INFO:Checking exceptions
+2022-11-16 22:04:38,458:INFO:Preloading libraries
+2022-11-16 22:04:38,458:INFO:Preparing display monitor
+2022-11-16 22:04:38,994:INFO:(2393, 13)
+2022-11-16 22:04:38,995:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:04:38,995:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:04:38,997:INFO:Fitting CountVectorizer()
+2022-11-16 22:04:38,998:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 22:06:45,031:INFO:PyCaret NLP Module
+2022-11-16 22:06:45,031:INFO:version 2.3.10
+2022-11-16 22:06:45,031:INFO:Initializing setup()
+2022-11-16 22:06:45,031:INFO:USI: 07dc
+2022-11-16 22:06:45,031:INFO:setup(data=(1253, 7), target=text, custom_stopwords=['test'], html=True, session_id=1213, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:06:45,031:INFO:Checking environment
+2022-11-16 22:06:45,031:INFO:python_version: 3.8.15
+2022-11-16 22:06:45,031:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:06:45,031:INFO:machine: x86_64
+2022-11-16 22:06:45,031:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:06:45,031:INFO:Memory: svmem(total=25769803776, available=12938637312, percent=49.8, used=12778569728, free=2331316224, active=9921073152, inactive=8877723648, wired=2857496576)
+2022-11-16 22:06:45,032:INFO:Physical Core: 4
+2022-11-16 22:06:45,032:INFO:Logical Core: 4
+2022-11-16 22:06:45,032:INFO:Checking libraries
+2022-11-16 22:06:45,032:INFO:pd==1.5.1
+2022-11-16 22:06:45,032:INFO:numpy==1.20.3
+2022-11-16 22:06:45,074:INFO:gensim==3.8.3
+2022-11-16 22:06:45,247:INFO:spacy==2.2.4
+2022-11-16 22:06:45,367:INFO:nltk==3.7
+2022-11-16 22:06:45,382:INFO:textblob==0.17.1
+2022-11-16 22:06:45,391:INFO:pyLDAvis==3.3.1
+2022-11-16 22:06:45,397:INFO:wordcloud==1.8.2.2
+2022-11-16 22:06:45,398:INFO:mlflow==1.30.0
+2022-11-16 22:06:45,398:INFO:Checking Exceptions
+2022-11-16 22:06:45,855:INFO:Preloading libraries
+2022-11-16 22:06:45,855:INFO:Preparing display monitor
+2022-11-16 22:06:45,866:INFO:Importing libraries
+2022-11-16 22:06:45,866:INFO:Declaring global variables
+2022-11-16 22:06:45,866:INFO:Input provided : dataframe
+2022-11-16 22:06:45,866:INFO:session_id set to : 1213
+2022-11-16 22:06:45,867:INFO:Copying training dataset
+2022-11-16 22:06:45,867:INFO:Importing stopwords from nltk
+2022-11-16 22:06:45,911:INFO:Removing numeric characters from the text
+2022-11-16 22:06:45,925:INFO:Removing special characters from the text
+2022-11-16 22:06:46,011:INFO:Tokenizing Words
+2022-11-16 22:06:46,161:INFO:Removing stopwords
+2022-11-16 22:06:46,271:INFO:Extracting Bigrams
+2022-11-16 22:06:46,613:INFO:Extracting Trigrams
+2022-11-16 22:06:47,161:INFO:Lemmatizing tokens
+2022-11-16 22:06:50,771:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:06:50,837:INFO:Creating corpus and dictionary
+2022-11-16 22:06:50,898:INFO:Compiling processed text
+2022-11-16 22:06:50,899:INFO:Compiling information grid
+2022-11-16 22:06:50,903:INFO:setup() succesfully completed......................................
+2022-11-16 22:06:50,918:INFO:Initializing create_model()
+2022-11-16 22:06:50,918:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:06:50,918:INFO:Checking exceptions
+2022-11-16 22:06:50,919:INFO:Preloading libraries
+2022-11-16 22:06:50,919:INFO:Preparing display monitor
+2022-11-16 22:06:50,931:INFO:Defining topic model
+2022-11-16 22:06:50,931:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:06:50,931:INFO:Defining num_topics parameter
+2022-11-16 22:06:50,931:INFO:num_topics set to: 4
+2022-11-16 22:06:50,937:INFO:LdaModel imported successfully
+2022-11-16 22:06:53,116:INFO:LdaModel trained successfully
+2022-11-16 22:06:53,117:INFO:LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:06:53,118:INFO:create_model() succesfully completed......................................
+2022-11-16 22:06:53,130:INFO:Initializing assign_model()
+2022-11-16 22:06:53,131:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:06:53,131:INFO:Determining model type
+2022-11-16 22:06:53,131:INFO:model type: lda
+2022-11-16 22:06:53,131:INFO:Checking exceptions
+2022-11-16 22:06:53,131:INFO:Preloading libraries
+2022-11-16 22:06:53,131:INFO:Preparing display monitor
+2022-11-16 22:06:53,769:INFO:(2393, 13)
+2022-11-16 22:06:53,769:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:06:53,797:INFO:Initializing plot_model()
+2022-11-16 22:06:53,797:INFO:plot_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:06:53,797:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:06:53,797:INFO:Checking exceptions
+2022-11-16 22:06:53,797:INFO:Importing libraries
+2022-11-16 22:06:54,115:INFO:save_param set to False
+2022-11-16 22:06:54,115:INFO:plot type: frequency
+2022-11-16 22:06:54,115:INFO:Rendering Visual
+2022-11-16 22:06:54,115:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:06:54,116:INFO:Initializing assign_model()
+2022-11-16 22:06:54,116:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:06:54,116:INFO:Determining model type
+2022-11-16 22:06:54,117:INFO:model type: lda
+2022-11-16 22:06:54,117:INFO:Checking exceptions
+2022-11-16 22:06:54,117:INFO:Preloading libraries
+2022-11-16 22:06:54,117:INFO:Preparing display monitor
+2022-11-16 22:06:54,884:INFO:(2393, 13)
+2022-11-16 22:06:54,884:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:06:54,885:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:06:54,887:INFO:Fitting CountVectorizer()
+2022-11-16 22:06:54,888:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 22:10:47,806:INFO:Initializing plot_model()
+2022-11-16 22:10:47,806:INFO:plot_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 0, save=False, system=True)
+2022-11-16 22:10:47,806:INFO:Checking exceptions
+2022-11-16 22:10:47,806:INFO:Importing libraries
+2022-11-16 22:10:47,811:INFO:save_param set to False
+2022-11-16 22:10:47,811:INFO:plot type: frequency
+2022-11-16 22:10:47,811:INFO:Rendering Visual
+2022-11-16 22:10:47,811:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:10:47,811:INFO:Initializing assign_model()
+2022-11-16 22:10:47,811:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:10:47,811:INFO:Determining model type
+2022-11-16 22:10:47,811:INFO:model type: lda
+2022-11-16 22:10:47,811:INFO:Checking exceptions
+2022-11-16 22:10:47,811:INFO:Preloading libraries
+2022-11-16 22:10:47,811:INFO:Preparing display monitor
+2022-11-16 22:10:48,284:INFO:(2393, 13)
+2022-11-16 22:10:48,284:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:10:48,285:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:10:48,286:INFO:Fitting CountVectorizer()
+2022-11-16 22:10:48,287:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 22:11:17,268:INFO:PyCaret NLP Module
+2022-11-16 22:11:17,268:INFO:version 2.3.10
+2022-11-16 22:11:17,268:INFO:Initializing setup()
+2022-11-16 22:11:17,268:INFO:USI: 4fcc
+2022-11-16 22:11:17,268:INFO:setup(data=(1500, 25), target=reviews.text, custom_stopwords=['make', 'room', 'hotel', 'stay', 'good', 'bad', 'und', 'der', 'great', 'go', 'lot', 'staff'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:11:17,268:INFO:Checking environment
+2022-11-16 22:11:17,268:INFO:python_version: 3.8.15
+2022-11-16 22:11:17,268:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:11:17,268:INFO:machine: x86_64
+2022-11-16 22:11:17,269:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:11:17,269:INFO:Memory: svmem(total=25769803776, available=11950505984, percent=53.6, used=13767557120, free=1062662144, active=10889232384, inactive=9146417152, wired=2878324736)
+2022-11-16 22:11:17,269:INFO:Physical Core: 4
+2022-11-16 22:11:17,269:INFO:Logical Core: 4
+2022-11-16 22:11:17,269:INFO:Checking libraries
+2022-11-16 22:11:17,269:INFO:pd==1.5.1
+2022-11-16 22:11:17,269:INFO:numpy==1.20.3
+2022-11-16 22:11:17,309:INFO:gensim==3.8.3
+2022-11-16 22:11:17,494:INFO:spacy==2.2.4
+2022-11-16 22:11:17,628:INFO:nltk==3.7
+2022-11-16 22:11:17,646:INFO:textblob==0.17.1
+2022-11-16 22:11:17,656:INFO:pyLDAvis==3.3.1
+2022-11-16 22:11:17,662:INFO:wordcloud==1.8.2.2
+2022-11-16 22:11:17,663:INFO:mlflow==1.30.0
+2022-11-16 22:11:17,663:INFO:Checking Exceptions
+2022-11-16 22:11:18,108:INFO:Preloading libraries
+2022-11-16 22:11:18,108:INFO:Preparing display monitor
+2022-11-16 22:11:18,118:INFO:Importing libraries
+2022-11-16 22:11:18,118:INFO:Declaring global variables
+2022-11-16 22:11:18,118:INFO:Input provided : dataframe
+2022-11-16 22:11:18,118:INFO:session_id set to : 123
+2022-11-16 22:11:18,118:INFO:Copying training dataset
+2022-11-16 22:11:18,120:INFO:Importing stopwords from nltk
+2022-11-16 22:11:18,184:INFO:Removing numeric characters from the text
+2022-11-16 22:11:18,197:INFO:Removing special characters from the text
+2022-11-16 22:11:18,278:INFO:Tokenizing Words
+2022-11-16 22:11:18,427:INFO:Removing stopwords
+2022-11-16 22:11:18,535:INFO:Extracting Bigrams
+2022-11-16 22:11:18,856:INFO:Extracting Trigrams
+2022-11-16 22:11:19,357:INFO:Lemmatizing tokens
+2022-11-16 22:11:23,118:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:11:23,178:INFO:Creating corpus and dictionary
+2022-11-16 22:11:23,233:INFO:Compiling processed text
+2022-11-16 22:11:23,235:INFO:Compiling information grid
+2022-11-16 22:11:23,239:INFO:setup() succesfully completed......................................
+2022-11-16 22:11:23,254:INFO:Initializing create_model()
+2022-11-16 22:11:23,254:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:11:23,254:INFO:Checking exceptions
+2022-11-16 22:11:23,254:INFO:Preloading libraries
+2022-11-16 22:11:23,254:INFO:Preparing display monitor
+2022-11-16 22:11:23,268:INFO:Defining topic model
+2022-11-16 22:11:23,269:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:11:23,269:INFO:Defining num_topics parameter
+2022-11-16 22:11:23,269:INFO:num_topics set to: 4
+2022-11-16 22:11:23,274:INFO:LdaModel imported successfully
+2022-11-16 22:11:25,417:INFO:LdaModel trained successfully
+2022-11-16 22:11:25,419:INFO:LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:11:25,419:INFO:create_model() succesfully completed......................................
+2022-11-16 22:11:25,432:INFO:Initializing assign_model()
+2022-11-16 22:11:25,432:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:11:25,432:INFO:Determining model type
+2022-11-16 22:11:25,432:INFO:model type: lda
+2022-11-16 22:11:25,432:INFO:Checking exceptions
+2022-11-16 22:11:25,432:INFO:Preloading libraries
+2022-11-16 22:11:25,432:INFO:Preparing display monitor
+2022-11-16 22:11:26,126:INFO:(1500, 31)
+2022-11-16 22:11:26,126:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:26,158:INFO:Initializing plot_model()
+2022-11-16 22:11:26,158:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:11:26,158:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:11:26,158:INFO:Checking exceptions
+2022-11-16 22:11:26,158:INFO:Importing libraries
+2022-11-16 22:11:26,470:INFO:save_param set to False
+2022-11-16 22:11:26,470:INFO:plot type: frequency
+2022-11-16 22:11:26,470:INFO:Rendering Visual
+2022-11-16 22:11:26,471:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:26,471:INFO:Initializing assign_model()
+2022-11-16 22:11:26,471:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:26,472:INFO:Determining model type
+2022-11-16 22:11:26,472:INFO:model type: lda
+2022-11-16 22:11:26,472:INFO:Checking exceptions
+2022-11-16 22:11:26,472:INFO:Preloading libraries
+2022-11-16 22:11:26,472:INFO:Preparing display monitor
+2022-11-16 22:11:27,306:INFO:(1500, 31)
+2022-11-16 22:11:27,306:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:27,307:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:27,309:INFO:Fitting CountVectorizer()
+2022-11-16 22:11:27,708:INFO:Visual Rendered Successfully
+2022-11-16 22:11:27,708:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:27,713:INFO:Initializing plot_model()
+2022-11-16 22:11:27,714:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=bigram, topic_num=None, save=False, system=True)
+2022-11-16 22:11:27,714:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:11:27,714:INFO:Checking exceptions
+2022-11-16 22:11:27,714:INFO:Importing libraries
+2022-11-16 22:11:27,720:INFO:save_param set to False
+2022-11-16 22:11:27,720:INFO:plot type: bigram
+2022-11-16 22:11:27,720:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:27,720:INFO:Initializing assign_model()
+2022-11-16 22:11:27,720:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:27,720:INFO:Determining model type
+2022-11-16 22:11:27,720:INFO:model type: lda
+2022-11-16 22:11:27,720:INFO:Checking exceptions
+2022-11-16 22:11:27,720:INFO:Preloading libraries
+2022-11-16 22:11:27,720:INFO:Preparing display monitor
+2022-11-16 22:11:28,365:INFO:(1500, 31)
+2022-11-16 22:11:28,366:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:28,366:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:28,368:INFO:Fitting CountVectorizer()
+2022-11-16 22:11:28,371:INFO:Rendering Visual
+2022-11-16 22:11:28,433:INFO:Visual Rendered Successfully
+2022-11-16 22:11:28,433:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:28,439:INFO:Initializing plot_model()
+2022-11-16 22:11:28,439:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=trigram, topic_num=None, save=False, system=True)
+2022-11-16 22:11:28,439:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:11:28,439:INFO:Checking exceptions
+2022-11-16 22:11:28,439:INFO:Importing libraries
+2022-11-16 22:11:28,447:INFO:save_param set to False
+2022-11-16 22:11:28,447:INFO:plot type: trigram
+2022-11-16 22:11:28,447:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:28,448:INFO:Initializing assign_model()
+2022-11-16 22:11:28,448:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:28,448:INFO:Determining model type
+2022-11-16 22:11:28,448:INFO:model type: lda
+2022-11-16 22:11:28,448:INFO:Checking exceptions
+2022-11-16 22:11:28,448:INFO:Preloading libraries
+2022-11-16 22:11:28,448:INFO:Preparing display monitor
+2022-11-16 22:11:29,306:INFO:(1500, 31)
+2022-11-16 22:11:29,306:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:29,307:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:29,310:INFO:Fitting CountVectorizer()
+2022-11-16 22:11:29,311:INFO:Rendering Visual
+2022-11-16 22:11:29,351:INFO:Visual Rendered Successfully
+2022-11-16 22:11:29,352:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:29,357:INFO:Initializing plot_model()
+2022-11-16 22:11:29,357:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 0, save=False, system=True)
+2022-11-16 22:11:29,357:INFO:Checking exceptions
+2022-11-16 22:11:29,357:INFO:Importing libraries
+2022-11-16 22:11:29,363:INFO:save_param set to False
+2022-11-16 22:11:29,363:INFO:plot type: frequency
+2022-11-16 22:11:29,363:INFO:Rendering Visual
+2022-11-16 22:11:29,363:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:29,364:INFO:Initializing assign_model()
+2022-11-16 22:11:29,364:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:29,364:INFO:Determining model type
+2022-11-16 22:11:29,364:INFO:model type: lda
+2022-11-16 22:11:29,365:INFO:Checking exceptions
+2022-11-16 22:11:29,365:INFO:Preloading libraries
+2022-11-16 22:11:29,365:INFO:Preparing display monitor
+2022-11-16 22:11:30,343:INFO:(1500, 31)
+2022-11-16 22:11:30,343:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:30,344:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:30,346:INFO:Fitting CountVectorizer()
+2022-11-16 22:11:30,445:INFO:Visual Rendered Successfully
+2022-11-16 22:11:30,445:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:30,450:INFO:Initializing plot_model()
+2022-11-16 22:11:30,450:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 1, save=False, system=True)
+2022-11-16 22:11:30,450:INFO:Checking exceptions
+2022-11-16 22:11:30,451:INFO:Importing libraries
+2022-11-16 22:11:30,458:INFO:save_param set to False
+2022-11-16 22:11:30,458:INFO:plot type: frequency
+2022-11-16 22:11:30,458:INFO:Rendering Visual
+2022-11-16 22:11:30,459:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:30,459:INFO:Initializing assign_model()
+2022-11-16 22:11:30,459:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:30,459:INFO:Determining model type
+2022-11-16 22:11:30,459:INFO:model type: lda
+2022-11-16 22:11:30,459:INFO:Checking exceptions
+2022-11-16 22:11:30,460:INFO:Preloading libraries
+2022-11-16 22:11:30,460:INFO:Preparing display monitor
+2022-11-16 22:11:31,159:INFO:(1500, 31)
+2022-11-16 22:11:31,159:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:31,160:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:31,163:INFO:Fitting CountVectorizer()
+2022-11-16 22:11:31,235:INFO:Visual Rendered Successfully
+2022-11-16 22:11:31,235:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:31,241:INFO:Initializing plot_model()
+2022-11-16 22:11:31,241:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 2, save=False, system=True)
+2022-11-16 22:11:31,241:INFO:Checking exceptions
+2022-11-16 22:11:31,241:INFO:Importing libraries
+2022-11-16 22:11:31,249:INFO:save_param set to False
+2022-11-16 22:11:31,249:INFO:plot type: frequency
+2022-11-16 22:11:31,249:INFO:Rendering Visual
+2022-11-16 22:11:31,249:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:31,250:INFO:Initializing assign_model()
+2022-11-16 22:11:31,250:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:31,250:INFO:Determining model type
+2022-11-16 22:11:31,250:INFO:model type: lda
+2022-11-16 22:11:31,250:INFO:Checking exceptions
+2022-11-16 22:11:31,250:INFO:Preloading libraries
+2022-11-16 22:11:31,250:INFO:Preparing display monitor
+2022-11-16 22:11:32,137:INFO:(1500, 31)
+2022-11-16 22:11:32,137:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:32,138:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:32,140:INFO:Fitting CountVectorizer()
+2022-11-16 22:11:32,180:INFO:Visual Rendered Successfully
+2022-11-16 22:11:32,180:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:32,187:INFO:Initializing plot_model()
+2022-11-16 22:11:32,187:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 3, save=False, system=True)
+2022-11-16 22:11:32,187:INFO:Checking exceptions
+2022-11-16 22:11:32,187:INFO:Importing libraries
+2022-11-16 22:11:32,195:INFO:save_param set to False
+2022-11-16 22:11:32,195:INFO:plot type: frequency
+2022-11-16 22:11:32,195:INFO:Rendering Visual
+2022-11-16 22:11:32,195:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:32,196:INFO:Initializing assign_model()
+2022-11-16 22:11:32,196:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:32,196:INFO:Determining model type
+2022-11-16 22:11:32,196:INFO:model type: lda
+2022-11-16 22:11:32,196:INFO:Checking exceptions
+2022-11-16 22:11:32,196:INFO:Preloading libraries
+2022-11-16 22:11:32,197:INFO:Preparing display monitor
+2022-11-16 22:11:32,973:INFO:(1500, 31)
+2022-11-16 22:11:32,973:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:32,974:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:32,976:INFO:Fitting CountVectorizer()
+2022-11-16 22:11:33,103:INFO:Visual Rendered Successfully
+2022-11-16 22:11:33,104:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:33,110:INFO:Initializing plot_model()
+2022-11-16 22:11:33,110:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=topic_distribution, topic_num=None, save=False, system=True)
+2022-11-16 22:11:33,110:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:11:33,111:INFO:Checking exceptions
+2022-11-16 22:11:33,111:INFO:Importing libraries
+2022-11-16 22:11:33,120:INFO:save_param set to False
+2022-11-16 22:11:33,120:INFO:plot type: topic_distribution
+2022-11-16 22:11:33,124:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:33,125:INFO:Initializing assign_model()
+2022-11-16 22:11:33,125:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:33,125:INFO:Determining model type
+2022-11-16 22:11:33,125:INFO:model type: lda
+2022-11-16 22:11:33,125:INFO:Checking exceptions
+2022-11-16 22:11:33,126:INFO:Preloading libraries
+2022-11-16 22:11:33,126:INFO:Preparing display monitor
+2022-11-16 22:11:34,002:INFO:(1500, 31)
+2022-11-16 22:11:34,002:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:34,002:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:34,009:INFO:Sorting Dataframe
+2022-11-16 22:11:34,010:INFO:Rendering Visual
+2022-11-16 22:11:34,129:INFO:Visual Rendered Successfully
+2022-11-16 22:11:34,129:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:34,136:INFO:Initializing plot_model()
+2022-11-16 22:11:34,137:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=tsne, topic_num=None, save=False, system=True)
+2022-11-16 22:11:34,137:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:11:34,137:INFO:Checking exceptions
+2022-11-16 22:11:34,137:INFO:Importing libraries
+2022-11-16 22:11:34,145:INFO:save_param set to False
+2022-11-16 22:11:34,145:INFO:plot type: tsne
+2022-11-16 22:11:34,145:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:34,145:INFO:Initializing assign_model()
+2022-11-16 22:11:34,146:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:34,146:INFO:Determining model type
+2022-11-16 22:11:34,146:INFO:model type: lda
+2022-11-16 22:11:34,146:INFO:Checking exceptions
+2022-11-16 22:11:34,146:INFO:Preloading libraries
+2022-11-16 22:11:34,146:INFO:Preparing display monitor
+2022-11-16 22:11:34,934:INFO:(1500, 31)
+2022-11-16 22:11:34,935:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:34,935:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:34,943:INFO:Fitting TSNE()
+2022-11-16 22:11:38,544:INFO:Sorting Dataframe
+2022-11-16 22:11:38,546:INFO:Rendering Visual
+2022-11-16 22:11:38,608:INFO:Visual Rendered Successfully
+2022-11-16 22:11:38,608:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:38,613:INFO:Initializing plot_model()
+2022-11-16 22:11:38,613:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=sentiment, topic_num=None, save=False, system=True)
+2022-11-16 22:11:38,613:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:11:38,613:INFO:Checking exceptions
+2022-11-16 22:11:38,613:INFO:Importing libraries
+2022-11-16 22:11:38,619:INFO:save_param set to False
+2022-11-16 22:11:38,619:INFO:plot type: sentiment
+2022-11-16 22:11:38,619:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:11:38,619:INFO:Initializing assign_model()
+2022-11-16 22:11:38,619:INFO:assign_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:11:38,619:INFO:Determining model type
+2022-11-16 22:11:38,619:INFO:model type: lda
+2022-11-16 22:11:38,619:INFO:Checking exceptions
+2022-11-16 22:11:38,619:INFO:Preloading libraries
+2022-11-16 22:11:38,620:INFO:Preparing display monitor
+2022-11-16 22:11:39,384:INFO:(1500, 31)
+2022-11-16 22:11:39,384:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:11:39,384:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:11:39,424:INFO:Rendering Visual
+2022-11-16 22:11:39,474:INFO:Visual Rendered Successfully
+2022-11-16 22:11:39,475:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:39,480:INFO:Initializing plot_model()
+2022-11-16 22:11:39,480:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=pos, topic_num=None, save=False, system=True)
+2022-11-16 22:11:39,481:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:11:39,481:INFO:Checking exceptions
+2022-11-16 22:11:39,481:INFO:Importing libraries
+2022-11-16 22:11:39,488:INFO:save_param set to False
+2022-11-16 22:11:39,488:INFO:plot type: pos
+2022-11-16 22:11:39,489:INFO:Fitting TextBlob()
+2022-11-16 22:11:40,310:INFO:Rendering Visual
+2022-11-16 22:11:40,350:INFO:Visual Rendered Sucessfully
+2022-11-16 22:11:40,351:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:11:40,364:INFO:Initializing plot_model()
+2022-11-16 22:11:40,365:INFO:plot_model(model=LdaModel(num_terms=3816, num_topics=4, decay=0.5, chunksize=100), plot=topic_model, topic_num=None, save=False, system=True)
+2022-11-16 22:11:40,365:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:11:40,365:INFO:Checking exceptions
+2022-11-16 22:11:40,365:INFO:Importing libraries
+2022-11-16 22:11:40,373:INFO:save_param set to False
+2022-11-16 22:11:40,373:INFO:plot type: topic_model
+2022-11-16 22:16:07,380:INFO:PyCaret NLP Module
+2022-11-16 22:16:07,380:INFO:version 2.3.10
+2022-11-16 22:16:07,380:INFO:Initializing setup()
+2022-11-16 22:16:07,380:INFO:USI: beda
+2022-11-16 22:16:07,380:INFO:setup(data=(1253, 7), target=text, custom_stopwords=['test'], html=True, session_id=1213, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:16:07,380:INFO:Checking environment
+2022-11-16 22:16:07,380:INFO:python_version: 3.8.15
+2022-11-16 22:16:07,380:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:16:07,380:INFO:machine: x86_64
+2022-11-16 22:16:07,380:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:16:07,381:INFO:Memory: svmem(total=25769803776, available=11703308288, percent=54.6, used=14014029824, free=488206336, active=11212787712, inactive=9469198336, wired=2801242112)
+2022-11-16 22:16:07,381:INFO:Physical Core: 4
+2022-11-16 22:16:07,381:INFO:Logical Core: 4
+2022-11-16 22:16:07,381:INFO:Checking libraries
+2022-11-16 22:16:07,381:INFO:pd==1.5.1
+2022-11-16 22:16:07,381:INFO:numpy==1.20.3
+2022-11-16 22:16:07,381:INFO:gensim==3.8.3
+2022-11-16 22:16:07,381:INFO:spacy==2.2.4
+2022-11-16 22:16:07,381:INFO:nltk==3.7
+2022-11-16 22:16:07,381:INFO:textblob==0.17.1
+2022-11-16 22:16:07,382:INFO:pyLDAvis==3.3.1
+2022-11-16 22:16:07,382:INFO:wordcloud==1.8.2.2
+2022-11-16 22:16:07,382:INFO:mlflow==1.30.0
+2022-11-16 22:16:07,382:INFO:Checking Exceptions
+2022-11-16 22:16:07,834:INFO:Preloading libraries
+2022-11-16 22:16:07,834:INFO:Preparing display monitor
+2022-11-16 22:16:07,844:INFO:Importing libraries
+2022-11-16 22:16:07,844:INFO:Declaring global variables
+2022-11-16 22:16:07,844:INFO:Input provided : dataframe
+2022-11-16 22:16:07,844:INFO:session_id set to : 1213
+2022-11-16 22:16:07,844:INFO:Copying training dataset
+2022-11-16 22:16:07,846:INFO:Importing stopwords from nltk
+2022-11-16 22:16:07,847:INFO:Removing numeric characters from the text
+2022-11-16 22:16:07,860:INFO:Removing special characters from the text
+2022-11-16 22:16:07,945:INFO:Tokenizing Words
+2022-11-16 22:16:08,092:INFO:Removing stopwords
+2022-11-16 22:16:08,200:INFO:Extracting Bigrams
+2022-11-16 22:16:08,557:INFO:Extracting Trigrams
+2022-11-16 22:16:09,095:INFO:Lemmatizing tokens
+2022-11-16 22:16:12,491:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:16:12,557:INFO:Creating corpus and dictionary
+2022-11-16 22:16:12,616:INFO:Compiling processed text
+2022-11-16 22:16:12,618:INFO:Compiling information grid
+2022-11-16 22:16:12,622:INFO:setup() succesfully completed......................................
+2022-11-16 22:16:22,643:INFO:Initializing create_model()
+2022-11-16 22:16:22,643:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:16:22,643:INFO:Checking exceptions
+2022-11-16 22:16:22,643:INFO:Preloading libraries
+2022-11-16 22:16:22,643:INFO:Preparing display monitor
+2022-11-16 22:16:22,655:INFO:Defining topic model
+2022-11-16 22:16:22,655:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:16:22,655:INFO:Defining num_topics parameter
+2022-11-16 22:16:22,655:INFO:num_topics set to: 4
+2022-11-16 22:16:22,659:INFO:LdaModel imported successfully
+2022-11-16 22:16:24,792:INFO:LdaModel trained successfully
+2022-11-16 22:16:24,794:INFO:LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:16:24,795:INFO:create_model() succesfully completed......................................
+2022-11-16 22:16:44,227:INFO:Initializing assign_model()
+2022-11-16 22:16:44,227:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:16:44,227:INFO:Determining model type
+2022-11-16 22:16:44,228:INFO:model type: lda
+2022-11-16 22:16:44,228:INFO:Checking exceptions
+2022-11-16 22:16:44,228:INFO:Preloading libraries
+2022-11-16 22:16:44,228:INFO:Preparing display monitor
+2022-11-16 22:16:44,792:INFO:(2393, 13)
+2022-11-16 22:16:44,793:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:16:49,548:INFO:Initializing plot_model()
+2022-11-16 22:16:49,548:INFO:plot_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:16:49,548:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:16:49,548:INFO:Checking exceptions
+2022-11-16 22:16:49,548:INFO:Importing libraries
+2022-11-16 22:16:49,552:INFO:save_param set to False
+2022-11-16 22:16:49,552:INFO:plot type: frequency
+2022-11-16 22:16:49,552:INFO:Rendering Visual
+2022-11-16 22:16:49,552:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:16:49,553:INFO:Initializing assign_model()
+2022-11-16 22:16:49,553:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:16:49,553:INFO:Determining model type
+2022-11-16 22:16:49,553:INFO:model type: lda
+2022-11-16 22:16:49,553:INFO:Checking exceptions
+2022-11-16 22:16:49,553:INFO:Preloading libraries
+2022-11-16 22:16:49,553:INFO:Preparing display monitor
+2022-11-16 22:16:50,032:INFO:(2393, 13)
+2022-11-16 22:16:50,032:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:16:50,032:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:16:50,034:INFO:Fitting CountVectorizer()
+2022-11-16 22:16:50,035:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 22:17:46,444:INFO:Initializing plot_model()
+2022-11-16 22:17:46,444:INFO:plot_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:17:46,444:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:17:46,444:INFO:Checking exceptions
+2022-11-16 22:17:46,444:INFO:Importing libraries
+2022-11-16 22:17:46,448:INFO:save_param set to False
+2022-11-16 22:17:46,448:INFO:plot type: frequency
+2022-11-16 22:17:46,448:INFO:Rendering Visual
+2022-11-16 22:17:46,449:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:17:46,449:INFO:Initializing assign_model()
+2022-11-16 22:17:46,449:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:17:46,449:INFO:Determining model type
+2022-11-16 22:17:46,449:INFO:model type: lda
+2022-11-16 22:17:46,449:INFO:Checking exceptions
+2022-11-16 22:17:46,449:INFO:Preloading libraries
+2022-11-16 22:17:46,449:INFO:Preparing display monitor
+2022-11-16 22:17:46,938:INFO:(2393, 13)
+2022-11-16 22:17:46,938:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:17:46,939:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:17:46,941:INFO:Fitting CountVectorizer()
+2022-11-16 22:17:46,942:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 22:17:49,027:INFO:Initializing plot_model()
+2022-11-16 22:17:49,027:INFO:plot_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), plot=bigram, topic_num=None, save=False, system=True)
+2022-11-16 22:17:49,027:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:17:49,027:INFO:Checking exceptions
+2022-11-16 22:17:49,027:INFO:Importing libraries
+2022-11-16 22:17:49,032:INFO:save_param set to False
+2022-11-16 22:17:49,032:INFO:plot type: bigram
+2022-11-16 22:17:49,032:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:17:49,032:INFO:Initializing assign_model()
+2022-11-16 22:17:49,032:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:17:49,032:INFO:Determining model type
+2022-11-16 22:17:49,032:INFO:model type: lda
+2022-11-16 22:17:49,032:INFO:Checking exceptions
+2022-11-16 22:17:49,032:INFO:Preloading libraries
+2022-11-16 22:17:49,032:INFO:Preparing display monitor
+2022-11-16 22:17:49,520:INFO:(2393, 13)
+2022-11-16 22:17:49,521:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:17:49,521:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:17:49,523:INFO:Fitting CountVectorizer()
+2022-11-16 22:17:49,524:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 22:17:52,307:INFO:Initializing plot_model()
+2022-11-16 22:17:52,307:INFO:plot_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), plot=trigram, topic_num=None, save=False, system=True)
+2022-11-16 22:17:52,307:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:17:52,307:INFO:Checking exceptions
+2022-11-16 22:17:52,307:INFO:Importing libraries
+2022-11-16 22:17:52,312:INFO:save_param set to False
+2022-11-16 22:17:52,312:INFO:plot type: trigram
+2022-11-16 22:17:52,312:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:17:52,312:INFO:Initializing assign_model()
+2022-11-16 22:17:52,312:INFO:assign_model(model=LdaModel(num_terms=4022, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:17:52,312:INFO:Determining model type
+2022-11-16 22:17:52,312:INFO:model type: lda
+2022-11-16 22:17:52,312:INFO:Checking exceptions
+2022-11-16 22:17:52,312:INFO:Preloading libraries
+2022-11-16 22:17:52,312:INFO:Preparing display monitor
+2022-11-16 22:17:52,789:INFO:(2393, 13)
+2022-11-16 22:17:52,789:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:17:52,790:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:17:52,792:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 22:20:00,109:INFO:PyCaret NLP Module
+2022-11-16 22:20:00,109:INFO:version 2.3.10
+2022-11-16 22:20:00,109:INFO:Initializing setup()
+2022-11-16 22:20:00,110:INFO:USI: 94d2
+2022-11-16 22:20:00,110:INFO:setup(data=(1253, 7), target=text, custom_stopwords=['make', 'room', 'hotel', 'stay', 'good', 'bad', 'und', 'der', 'great', 'go', 'lot', 'staff'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:20:00,110:INFO:Checking environment
+2022-11-16 22:20:00,110:INFO:python_version: 3.8.15
+2022-11-16 22:20:00,110:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:20:00,110:INFO:machine: x86_64
+2022-11-16 22:20:00,110:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:20:00,110:INFO:Memory: svmem(total=25769803776, available=11645624320, percent=54.8, used=14072156160, free=405831680, active=11238412288, inactive=9492697088, wired=2833743872)
+2022-11-16 22:20:00,110:INFO:Physical Core: 4
+2022-11-16 22:20:00,110:INFO:Logical Core: 4
+2022-11-16 22:20:00,110:INFO:Checking libraries
+2022-11-16 22:20:00,110:INFO:pd==1.5.1
+2022-11-16 22:20:00,110:INFO:numpy==1.20.3
+2022-11-16 22:20:00,110:INFO:gensim==3.8.3
+2022-11-16 22:20:00,110:INFO:spacy==2.2.4
+2022-11-16 22:20:00,111:INFO:nltk==3.7
+2022-11-16 22:20:00,111:INFO:textblob==0.17.1
+2022-11-16 22:20:00,111:INFO:pyLDAvis==3.3.1
+2022-11-16 22:20:00,111:INFO:wordcloud==1.8.2.2
+2022-11-16 22:20:00,111:INFO:mlflow==1.30.0
+2022-11-16 22:20:00,111:INFO:Checking Exceptions
+2022-11-16 22:20:00,429:INFO:Preloading libraries
+2022-11-16 22:20:00,430:INFO:Preparing display monitor
+2022-11-16 22:20:00,439:INFO:Importing libraries
+2022-11-16 22:20:00,439:INFO:Declaring global variables
+2022-11-16 22:20:00,439:INFO:Input provided : dataframe
+2022-11-16 22:20:00,439:INFO:session_id set to : 123
+2022-11-16 22:20:00,439:INFO:Copying training dataset
+2022-11-16 22:20:00,440:INFO:Importing stopwords from nltk
+2022-11-16 22:20:00,442:INFO:Removing numeric characters from the text
+2022-11-16 22:20:00,455:INFO:Removing special characters from the text
+2022-11-16 22:20:00,540:INFO:Tokenizing Words
+2022-11-16 22:20:00,685:INFO:Removing stopwords
+2022-11-16 22:20:00,798:INFO:Extracting Bigrams
+2022-11-16 22:20:01,125:INFO:Extracting Trigrams
+2022-11-16 22:20:01,628:INFO:Lemmatizing tokens
+2022-11-16 22:20:04,912:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:20:04,976:INFO:Creating corpus and dictionary
+2022-11-16 22:20:05,032:INFO:Compiling processed text
+2022-11-16 22:20:05,034:INFO:Compiling information grid
+2022-11-16 22:20:05,037:INFO:setup() succesfully completed......................................
+2022-11-16 22:20:26,938:INFO:Initializing create_model()
+2022-11-16 22:20:26,938:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:20:26,938:INFO:Checking exceptions
+2022-11-16 22:20:26,939:INFO:Preloading libraries
+2022-11-16 22:20:26,939:INFO:Preparing display monitor
+2022-11-16 22:20:26,950:INFO:Defining topic model
+2022-11-16 22:20:26,950:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:20:26,950:INFO:Defining num_topics parameter
+2022-11-16 22:20:26,950:INFO:num_topics set to: 4
+2022-11-16 22:20:26,954:INFO:LdaModel imported successfully
+2022-11-16 22:20:29,052:INFO:LdaModel trained successfully
+2022-11-16 22:20:29,053:INFO:LdaModel(num_terms=4016, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:20:29,053:INFO:create_model() succesfully completed......................................
+2022-11-16 22:20:34,410:INFO:Initializing assign_model()
+2022-11-16 22:20:34,410:INFO:assign_model(model=LdaModel(num_terms=4016, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:20:34,410:INFO:Determining model type
+2022-11-16 22:20:34,410:INFO:model type: lda
+2022-11-16 22:20:34,410:INFO:Checking exceptions
+2022-11-16 22:20:34,410:INFO:Preloading libraries
+2022-11-16 22:20:34,410:INFO:Preparing display monitor
+2022-11-16 22:20:34,937:INFO:(2393, 13)
+2022-11-16 22:20:34,937:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:20:41,611:INFO:Initializing plot_model()
+2022-11-16 22:20:41,611:INFO:plot_model(model=LdaModel(num_terms=4016, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:20:41,611:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:20:41,611:INFO:Checking exceptions
+2022-11-16 22:20:41,611:INFO:Importing libraries
+2022-11-16 22:20:41,615:INFO:save_param set to False
+2022-11-16 22:20:41,615:INFO:plot type: frequency
+2022-11-16 22:20:41,615:INFO:Rendering Visual
+2022-11-16 22:20:41,616:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:20:41,616:INFO:Initializing assign_model()
+2022-11-16 22:20:41,616:INFO:assign_model(model=LdaModel(num_terms=4016, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:20:41,616:INFO:Determining model type
+2022-11-16 22:20:41,616:INFO:model type: lda
+2022-11-16 22:20:41,616:INFO:Checking exceptions
+2022-11-16 22:20:41,616:INFO:Preloading libraries
+2022-11-16 22:20:41,616:INFO:Preparing display monitor
+2022-11-16 22:20:42,268:INFO:(2393, 13)
+2022-11-16 22:20:42,268:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:20:42,268:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:20:42,270:INFO:Fitting CountVectorizer()
+2022-11-16 22:20:42,270:WARNING:Invalid topic_num param or empty Vocab. Try changing Topic Number.
+2022-11-16 22:21:56,727:INFO:PyCaret NLP Module
+2022-11-16 22:21:56,727:INFO:version 2.3.10
+2022-11-16 22:21:56,727:INFO:Initializing setup()
+2022-11-16 22:21:56,727:INFO:USI: 4e96
+2022-11-16 22:21:56,727:INFO:setup(data=(1200, 7), target=text, custom_stopwords=['make', 'room', 'hotel', 'stay', 'good', 'bad', 'und', 'der', 'great', 'go', 'lot', 'staff'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:21:56,727:INFO:Checking environment
+2022-11-16 22:21:56,727:INFO:python_version: 3.8.15
+2022-11-16 22:21:56,727:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:21:56,727:INFO:machine: x86_64
+2022-11-16 22:21:56,727:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:21:56,727:INFO:Memory: svmem(total=25769803776, available=11617652736, percent=54.9, used=14099922944, free=303824896, active=11296174080, inactive=9565184000, wired=2803748864)
+2022-11-16 22:21:56,727:INFO:Physical Core: 4
+2022-11-16 22:21:56,727:INFO:Logical Core: 4
+2022-11-16 22:21:56,727:INFO:Checking libraries
+2022-11-16 22:21:56,727:INFO:pd==1.5.1
+2022-11-16 22:21:56,727:INFO:numpy==1.20.3
+2022-11-16 22:21:56,727:INFO:gensim==3.8.3
+2022-11-16 22:21:56,727:INFO:spacy==2.2.4
+2022-11-16 22:21:56,728:INFO:nltk==3.7
+2022-11-16 22:21:56,728:INFO:textblob==0.17.1
+2022-11-16 22:21:56,728:INFO:pyLDAvis==3.3.1
+2022-11-16 22:21:56,728:INFO:wordcloud==1.8.2.2
+2022-11-16 22:21:56,728:INFO:mlflow==1.30.0
+2022-11-16 22:21:56,728:INFO:Checking Exceptions
+2022-11-16 22:21:57,047:INFO:Preloading libraries
+2022-11-16 22:21:57,047:INFO:Preparing display monitor
+2022-11-16 22:21:57,056:INFO:Importing libraries
+2022-11-16 22:21:57,056:INFO:Declaring global variables
+2022-11-16 22:21:57,056:INFO:Input provided : dataframe
+2022-11-16 22:21:57,056:INFO:session_id set to : 123
+2022-11-16 22:21:57,057:INFO:Copying training dataset
+2022-11-16 22:21:57,058:INFO:Importing stopwords from nltk
+2022-11-16 22:21:57,059:INFO:Removing numeric characters from the text
+2022-11-16 22:21:57,072:INFO:Removing special characters from the text
+2022-11-16 22:21:57,153:INFO:Tokenizing Words
+2022-11-16 22:21:57,291:INFO:Removing stopwords
+2022-11-16 22:21:57,401:INFO:Extracting Bigrams
+2022-11-16 22:21:57,724:INFO:Extracting Trigrams
+2022-11-16 22:21:58,222:INFO:Lemmatizing tokens
+2022-11-16 22:22:01,790:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:22:01,856:INFO:Creating corpus and dictionary
+2022-11-16 22:22:01,912:INFO:Compiling processed text
+2022-11-16 22:22:01,913:INFO:Compiling information grid
+2022-11-16 22:22:01,918:INFO:setup() succesfully completed......................................
+2022-11-16 22:22:02,778:INFO:PyCaret NLP Module
+2022-11-16 22:22:02,778:INFO:version 2.3.10
+2022-11-16 22:22:02,778:INFO:Initializing setup()
+2022-11-16 22:22:02,778:INFO:USI: 88f5
+2022-11-16 22:22:02,778:INFO:setup(data=(1200, 7), target=text, custom_stopwords=['make', 'room', 'hotel', 'stay', 'good', 'bad', 'und', 'der', 'great', 'go', 'lot', 'staff'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:22:02,778:INFO:Checking environment
+2022-11-16 22:22:02,778:INFO:python_version: 3.8.15
+2022-11-16 22:22:02,778:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:22:02,778:INFO:machine: x86_64
+2022-11-16 22:22:02,778:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:22:02,779:INFO:Memory: svmem(total=25769803776, available=11625168896, percent=54.9, used=14092902400, free=278130688, active=11287597056, inactive=9598382080, wired=2805305344)
+2022-11-16 22:22:02,779:INFO:Physical Core: 4
+2022-11-16 22:22:02,779:INFO:Logical Core: 4
+2022-11-16 22:22:02,779:INFO:Checking libraries
+2022-11-16 22:22:02,779:INFO:pd==1.5.1
+2022-11-16 22:22:02,779:INFO:numpy==1.20.3
+2022-11-16 22:22:02,779:INFO:gensim==3.8.3
+2022-11-16 22:22:02,779:INFO:spacy==2.2.4
+2022-11-16 22:22:02,779:INFO:nltk==3.7
+2022-11-16 22:22:02,779:INFO:textblob==0.17.1
+2022-11-16 22:22:02,779:INFO:pyLDAvis==3.3.1
+2022-11-16 22:22:02,779:INFO:wordcloud==1.8.2.2
+2022-11-16 22:22:02,779:INFO:mlflow==1.30.0
+2022-11-16 22:22:02,779:INFO:Checking Exceptions
+2022-11-16 22:22:03,090:INFO:Preloading libraries
+2022-11-16 22:22:03,090:INFO:Preparing display monitor
+2022-11-16 22:22:03,099:INFO:Importing libraries
+2022-11-16 22:22:03,099:INFO:Declaring global variables
+2022-11-16 22:22:03,100:INFO:Input provided : dataframe
+2022-11-16 22:22:03,100:INFO:session_id set to : 123
+2022-11-16 22:22:03,100:INFO:Copying training dataset
+2022-11-16 22:22:03,101:INFO:Importing stopwords from nltk
+2022-11-16 22:22:03,102:INFO:Removing numeric characters from the text
+2022-11-16 22:22:03,116:INFO:Removing special characters from the text
+2022-11-16 22:22:03,197:INFO:Tokenizing Words
+2022-11-16 22:22:03,335:INFO:Removing stopwords
+2022-11-16 22:22:03,444:INFO:Extracting Bigrams
+2022-11-16 22:22:03,759:INFO:Extracting Trigrams
+2022-11-16 22:22:04,243:INFO:Lemmatizing tokens
+2022-11-16 22:22:07,473:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:22:07,536:INFO:Creating corpus and dictionary
+2022-11-16 22:22:07,587:INFO:Compiling processed text
+2022-11-16 22:22:07,589:INFO:Compiling information grid
+2022-11-16 22:22:07,593:INFO:setup() succesfully completed......................................
+2022-11-16 22:22:08,553:INFO:Initializing create_model()
+2022-11-16 22:22:08,553:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:22:08,554:INFO:Checking exceptions
+2022-11-16 22:22:08,554:INFO:Preloading libraries
+2022-11-16 22:22:08,554:INFO:Preparing display monitor
+2022-11-16 22:22:08,564:INFO:Defining topic model
+2022-11-16 22:22:08,564:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:22:08,564:INFO:Defining num_topics parameter
+2022-11-16 22:22:08,564:INFO:num_topics set to: 4
+2022-11-16 22:22:08,568:INFO:LdaModel imported successfully
+2022-11-16 22:22:10,663:INFO:LdaModel trained successfully
+2022-11-16 22:22:10,664:INFO:LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:22:10,664:INFO:create_model() succesfully completed......................................
+2022-11-16 22:22:13,920:INFO:Initializing assign_model()
+2022-11-16 22:22:13,921:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:22:13,921:INFO:Determining model type
+2022-11-16 22:22:13,921:INFO:model type: lda
+2022-11-16 22:22:13,921:INFO:Checking exceptions
+2022-11-16 22:22:13,921:INFO:Preloading libraries
+2022-11-16 22:22:13,921:INFO:Preparing display monitor
+2022-11-16 22:22:14,426:INFO:(1200, 13)
+2022-11-16 22:22:14,426:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:22:26,835:INFO:Initializing plot_model()
+2022-11-16 22:22:26,835:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:22:26,835:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:22:26,835:INFO:Checking exceptions
+2022-11-16 22:22:26,835:INFO:Importing libraries
+2022-11-16 22:22:26,839:INFO:save_param set to False
+2022-11-16 22:22:26,840:INFO:plot type: frequency
+2022-11-16 22:22:26,840:INFO:Rendering Visual
+2022-11-16 22:22:26,840:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:22:26,840:INFO:Initializing assign_model()
+2022-11-16 22:22:26,840:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:22:26,840:INFO:Determining model type
+2022-11-16 22:22:26,840:INFO:model type: lda
+2022-11-16 22:22:26,840:INFO:Checking exceptions
+2022-11-16 22:22:26,840:INFO:Preloading libraries
+2022-11-16 22:22:26,840:INFO:Preparing display monitor
+2022-11-16 22:22:27,291:INFO:(1200, 13)
+2022-11-16 22:22:27,292:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:22:27,292:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:22:27,293:INFO:Fitting CountVectorizer()
+2022-11-16 22:22:27,381:INFO:Visual Rendered Successfully
+2022-11-16 22:22:27,381:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:22:57,554:INFO:PyCaret NLP Module
+2022-11-16 22:22:57,554:INFO:version 2.3.10
+2022-11-16 22:22:57,554:INFO:Initializing setup()
+2022-11-16 22:22:57,554:INFO:USI: 233d
+2022-11-16 22:22:57,554:INFO:setup(data=(1200, 7), target=text, custom_stopwords=['make', 'room', 'hotel', 'stay', 'good', 'bad', 'und', 'der', 'great', 'go', 'lot', 'staff'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:22:57,554:INFO:Checking environment
+2022-11-16 22:22:57,554:INFO:python_version: 3.8.15
+2022-11-16 22:22:57,554:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:22:57,554:INFO:machine: x86_64
+2022-11-16 22:22:57,554:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:22:57,554:INFO:Memory: svmem(total=25769803776, available=11622793216, percent=54.9, used=14094831616, free=351518720, active=11258810368, inactive=9522380800, wired=2836021248)
+2022-11-16 22:22:57,554:INFO:Physical Core: 4
+2022-11-16 22:22:57,555:INFO:Logical Core: 4
+2022-11-16 22:22:57,555:INFO:Checking libraries
+2022-11-16 22:22:57,555:INFO:pd==1.5.1
+2022-11-16 22:22:57,555:INFO:numpy==1.20.3
+2022-11-16 22:22:57,555:INFO:gensim==3.8.3
+2022-11-16 22:22:57,555:INFO:spacy==2.2.4
+2022-11-16 22:22:57,555:INFO:nltk==3.7
+2022-11-16 22:22:57,555:INFO:textblob==0.17.1
+2022-11-16 22:22:57,555:INFO:pyLDAvis==3.3.1
+2022-11-16 22:22:57,555:INFO:wordcloud==1.8.2.2
+2022-11-16 22:22:57,555:INFO:mlflow==1.30.0
+2022-11-16 22:22:57,555:INFO:Checking Exceptions
+2022-11-16 22:22:58,014:INFO:Preloading libraries
+2022-11-16 22:22:58,014:INFO:Preparing display monitor
+2022-11-16 22:22:58,023:INFO:Importing libraries
+2022-11-16 22:22:58,023:INFO:Declaring global variables
+2022-11-16 22:22:58,024:INFO:Input provided : dataframe
+2022-11-16 22:22:58,024:INFO:session_id set to : 123
+2022-11-16 22:22:58,024:INFO:Copying training dataset
+2022-11-16 22:22:58,025:INFO:Importing stopwords from nltk
+2022-11-16 22:22:58,027:INFO:Removing numeric characters from the text
+2022-11-16 22:22:58,039:INFO:Removing special characters from the text
+2022-11-16 22:22:58,121:INFO:Tokenizing Words
+2022-11-16 22:22:58,261:INFO:Removing stopwords
+2022-11-16 22:22:58,386:INFO:Extracting Bigrams
+2022-11-16 22:22:58,707:INFO:Extracting Trigrams
+2022-11-16 22:22:59,192:INFO:Lemmatizing tokens
+2022-11-16 22:23:02,407:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:23:02,470:INFO:Creating corpus and dictionary
+2022-11-16 22:23:02,523:INFO:Compiling processed text
+2022-11-16 22:23:02,525:INFO:Compiling information grid
+2022-11-16 22:23:02,529:INFO:setup() succesfully completed......................................
+2022-11-16 22:23:07,945:INFO:Initializing create_model()
+2022-11-16 22:23:07,945:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:23:07,945:INFO:Checking exceptions
+2022-11-16 22:23:07,945:INFO:Preloading libraries
+2022-11-16 22:23:07,945:INFO:Preparing display monitor
+2022-11-16 22:23:07,955:INFO:Defining topic model
+2022-11-16 22:23:07,955:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:23:07,956:INFO:Defining num_topics parameter
+2022-11-16 22:23:07,956:INFO:num_topics set to: 4
+2022-11-16 22:23:07,960:INFO:LdaModel imported successfully
+2022-11-16 22:23:09,942:INFO:LdaModel trained successfully
+2022-11-16 22:23:09,944:INFO:LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:23:09,944:INFO:create_model() succesfully completed......................................
+2022-11-16 22:23:12,225:INFO:Initializing assign_model()
+2022-11-16 22:23:12,225:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:23:12,225:INFO:Determining model type
+2022-11-16 22:23:12,225:INFO:model type: lda
+2022-11-16 22:23:12,225:INFO:Checking exceptions
+2022-11-16 22:23:12,225:INFO:Preloading libraries
+2022-11-16 22:23:12,225:INFO:Preparing display monitor
+2022-11-16 22:23:12,729:INFO:(1200, 13)
+2022-11-16 22:23:12,729:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:23:19,553:INFO:Initializing plot_model()
+2022-11-16 22:23:19,554:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:23:19,554:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:23:19,554:INFO:Checking exceptions
+2022-11-16 22:23:19,554:INFO:Importing libraries
+2022-11-16 22:23:19,627:INFO:save_param set to False
+2022-11-16 22:23:19,627:INFO:plot type: frequency
+2022-11-16 22:23:19,627:INFO:Rendering Visual
+2022-11-16 22:23:19,627:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:23:19,627:INFO:Initializing assign_model()
+2022-11-16 22:23:19,627:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:23:19,627:INFO:Determining model type
+2022-11-16 22:23:19,627:INFO:model type: lda
+2022-11-16 22:23:19,628:INFO:Checking exceptions
+2022-11-16 22:23:19,628:INFO:Preloading libraries
+2022-11-16 22:23:19,628:INFO:Preparing display monitor
+2022-11-16 22:23:20,068:INFO:(1200, 13)
+2022-11-16 22:23:20,068:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:23:20,069:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:23:20,070:INFO:Fitting CountVectorizer()
+2022-11-16 22:23:20,146:INFO:Visual Rendered Successfully
+2022-11-16 22:23:20,146:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:24:07,270:INFO:PyCaret NLP Module
+2022-11-16 22:24:07,271:INFO:version 2.3.10
+2022-11-16 22:24:07,271:INFO:Initializing setup()
+2022-11-16 22:24:07,271:INFO:USI: d33c
+2022-11-16 22:24:07,271:INFO:setup(data=(1200, 7), target=text, custom_stopwords=['test'], html=True, session_id=1213, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:24:07,271:INFO:Checking environment
+2022-11-16 22:24:07,271:INFO:python_version: 3.8.15
+2022-11-16 22:24:07,271:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:24:07,271:INFO:machine: x86_64
+2022-11-16 22:24:07,271:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:24:07,271:INFO:Memory: svmem(total=25769803776, available=11621453824, percent=54.9, used=14095851520, free=325877760, active=11296104448, inactive=9546428416, wired=2799747072)
+2022-11-16 22:24:07,271:INFO:Physical Core: 4
+2022-11-16 22:24:07,271:INFO:Logical Core: 4
+2022-11-16 22:24:07,271:INFO:Checking libraries
+2022-11-16 22:24:07,271:INFO:pd==1.5.1
+2022-11-16 22:24:07,271:INFO:numpy==1.20.3
+2022-11-16 22:24:07,271:INFO:gensim==3.8.3
+2022-11-16 22:24:07,271:INFO:spacy==2.2.4
+2022-11-16 22:24:07,272:INFO:nltk==3.7
+2022-11-16 22:24:07,272:INFO:textblob==0.17.1
+2022-11-16 22:24:07,272:INFO:pyLDAvis==3.3.1
+2022-11-16 22:24:07,272:INFO:wordcloud==1.8.2.2
+2022-11-16 22:24:07,272:INFO:mlflow==1.30.0
+2022-11-16 22:24:07,272:INFO:Checking Exceptions
+2022-11-16 22:24:07,725:INFO:Preloading libraries
+2022-11-16 22:24:07,725:INFO:Preparing display monitor
+2022-11-16 22:24:07,736:INFO:Importing libraries
+2022-11-16 22:24:07,736:INFO:Declaring global variables
+2022-11-16 22:24:07,736:INFO:Input provided : dataframe
+2022-11-16 22:24:07,736:INFO:session_id set to : 1213
+2022-11-16 22:24:07,736:INFO:Copying training dataset
+2022-11-16 22:24:07,737:INFO:Importing stopwords from nltk
+2022-11-16 22:24:07,739:INFO:Removing numeric characters from the text
+2022-11-16 22:24:07,752:INFO:Removing special characters from the text
+2022-11-16 22:24:07,835:INFO:Tokenizing Words
+2022-11-16 22:24:07,973:INFO:Removing stopwords
+2022-11-16 22:24:08,079:INFO:Extracting Bigrams
+2022-11-16 22:24:08,405:INFO:Extracting Trigrams
+2022-11-16 22:24:08,910:INFO:Lemmatizing tokens
+2022-11-16 22:24:12,205:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:24:12,270:INFO:Creating corpus and dictionary
+2022-11-16 22:24:12,327:INFO:Compiling processed text
+2022-11-16 22:24:12,329:INFO:Compiling information grid
+2022-11-16 22:24:12,334:INFO:setup() succesfully completed......................................
+2022-11-16 22:24:15,133:INFO:Initializing create_model()
+2022-11-16 22:24:15,133:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:24:15,133:INFO:Checking exceptions
+2022-11-16 22:24:15,133:INFO:Preloading libraries
+2022-11-16 22:24:15,133:INFO:Preparing display monitor
+2022-11-16 22:24:15,143:INFO:Defining topic model
+2022-11-16 22:24:15,144:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:24:15,144:INFO:Defining num_topics parameter
+2022-11-16 22:24:15,144:INFO:num_topics set to: 4
+2022-11-16 22:24:15,148:INFO:LdaModel imported successfully
+2022-11-16 22:24:17,189:INFO:LdaModel trained successfully
+2022-11-16 22:24:17,191:INFO:LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:24:17,191:INFO:create_model() succesfully completed......................................
+2022-11-16 22:24:18,772:INFO:Initializing assign_model()
+2022-11-16 22:24:18,773:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:24:18,773:INFO:Determining model type
+2022-11-16 22:24:18,773:INFO:model type: lda
+2022-11-16 22:24:18,773:INFO:Checking exceptions
+2022-11-16 22:24:18,773:INFO:Preloading libraries
+2022-11-16 22:24:18,773:INFO:Preparing display monitor
+2022-11-16 22:24:19,282:INFO:(1200, 13)
+2022-11-16 22:24:19,282:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:24:24,789:INFO:Initializing plot_model()
+2022-11-16 22:24:24,789:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:24:24,789:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:24:24,789:INFO:Checking exceptions
+2022-11-16 22:24:24,789:INFO:Importing libraries
+2022-11-16 22:24:24,794:INFO:save_param set to False
+2022-11-16 22:24:24,794:INFO:plot type: frequency
+2022-11-16 22:24:24,794:INFO:Rendering Visual
+2022-11-16 22:24:24,794:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:24:24,795:INFO:Initializing assign_model()
+2022-11-16 22:24:24,795:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:24:24,795:INFO:Determining model type
+2022-11-16 22:24:24,795:INFO:model type: lda
+2022-11-16 22:24:24,795:INFO:Checking exceptions
+2022-11-16 22:24:24,795:INFO:Preloading libraries
+2022-11-16 22:24:24,795:INFO:Preparing display monitor
+2022-11-16 22:24:25,241:INFO:(1200, 13)
+2022-11-16 22:24:25,241:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:24:25,241:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:24:25,242:INFO:Fitting CountVectorizer()
+2022-11-16 22:24:25,560:INFO:Visual Rendered Successfully
+2022-11-16 22:24:25,560:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:25:37,851:INFO:PyCaret NLP Module
+2022-11-16 22:25:37,851:INFO:version 2.3.10
+2022-11-16 22:25:37,852:INFO:Initializing setup()
+2022-11-16 22:25:37,852:INFO:USI: 112b
+2022-11-16 22:25:37,852:INFO:setup(data=(1200, 7), target=text, custom_stopwords=['test'], html=True, session_id=1213, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:25:37,852:INFO:Checking environment
+2022-11-16 22:25:37,852:INFO:python_version: 3.8.15
+2022-11-16 22:25:37,852:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:25:37,852:INFO:machine: x86_64
+2022-11-16 22:25:37,852:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:25:37,852:INFO:Memory: svmem(total=25769803776, available=11602989056, percent=55.0, used=14114172928, free=295845888, active=11288489984, inactive=9557893120, wired=2825682944)
+2022-11-16 22:25:37,852:INFO:Physical Core: 4
+2022-11-16 22:25:37,852:INFO:Logical Core: 4
+2022-11-16 22:25:37,852:INFO:Checking libraries
+2022-11-16 22:25:37,852:INFO:pd==1.5.1
+2022-11-16 22:25:37,852:INFO:numpy==1.20.3
+2022-11-16 22:25:37,852:INFO:gensim==3.8.3
+2022-11-16 22:25:37,853:INFO:spacy==2.2.4
+2022-11-16 22:25:37,853:INFO:nltk==3.7
+2022-11-16 22:25:37,853:INFO:textblob==0.17.1
+2022-11-16 22:25:37,853:INFO:pyLDAvis==3.3.1
+2022-11-16 22:25:37,853:INFO:wordcloud==1.8.2.2
+2022-11-16 22:25:37,853:INFO:mlflow==1.30.0
+2022-11-16 22:25:37,853:INFO:Checking Exceptions
+2022-11-16 22:25:38,166:INFO:Preloading libraries
+2022-11-16 22:25:38,166:INFO:Preparing display monitor
+2022-11-16 22:25:38,176:INFO:Importing libraries
+2022-11-16 22:25:38,176:INFO:Declaring global variables
+2022-11-16 22:25:38,177:INFO:Input provided : dataframe
+2022-11-16 22:25:38,177:INFO:session_id set to : 1213
+2022-11-16 22:25:38,177:INFO:Copying training dataset
+2022-11-16 22:25:38,177:INFO:Importing stopwords from nltk
+2022-11-16 22:25:38,179:INFO:Removing numeric characters from the text
+2022-11-16 22:25:38,193:INFO:Removing special characters from the text
+2022-11-16 22:25:38,277:INFO:Tokenizing Words
+2022-11-16 22:25:38,421:INFO:Removing stopwords
+2022-11-16 22:25:38,525:INFO:Extracting Bigrams
+2022-11-16 22:25:38,852:INFO:Extracting Trigrams
+2022-11-16 22:25:39,363:INFO:Lemmatizing tokens
+2022-11-16 22:25:42,801:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:25:42,866:INFO:Creating corpus and dictionary
+2022-11-16 22:25:42,921:INFO:Compiling processed text
+2022-11-16 22:25:42,923:INFO:Compiling information grid
+2022-11-16 22:25:42,926:INFO:setup() succesfully completed......................................
+2022-11-16 22:25:44,363:INFO:Initializing create_model()
+2022-11-16 22:25:44,363:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:25:44,363:INFO:Checking exceptions
+2022-11-16 22:25:44,363:INFO:Preloading libraries
+2022-11-16 22:25:44,363:INFO:Preparing display monitor
+2022-11-16 22:25:44,374:INFO:Defining topic model
+2022-11-16 22:25:44,374:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:25:44,374:INFO:Defining num_topics parameter
+2022-11-16 22:25:44,374:INFO:num_topics set to: 4
+2022-11-16 22:25:44,378:INFO:LdaModel imported successfully
+2022-11-16 22:25:46,429:INFO:LdaModel trained successfully
+2022-11-16 22:25:46,430:INFO:LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:25:46,431:INFO:create_model() succesfully completed......................................
+2022-11-16 22:25:53,131:INFO:Initializing assign_model()
+2022-11-16 22:25:53,131:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:25:53,131:INFO:Determining model type
+2022-11-16 22:25:53,131:INFO:model type: lda
+2022-11-16 22:25:53,131:INFO:Checking exceptions
+2022-11-16 22:25:53,131:INFO:Preloading libraries
+2022-11-16 22:25:53,131:INFO:Preparing display monitor
+2022-11-16 22:25:53,638:INFO:(1200, 13)
+2022-11-16 22:25:53,639:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:25:58,563:INFO:Initializing plot_model()
+2022-11-16 22:25:58,564:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:25:58,564:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:25:58,564:INFO:Checking exceptions
+2022-11-16 22:25:58,564:INFO:Importing libraries
+2022-11-16 22:25:58,569:INFO:save_param set to False
+2022-11-16 22:25:58,569:INFO:plot type: frequency
+2022-11-16 22:25:58,569:INFO:Rendering Visual
+2022-11-16 22:25:58,569:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:25:58,569:INFO:Initializing assign_model()
+2022-11-16 22:25:58,569:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:25:58,569:INFO:Determining model type
+2022-11-16 22:25:58,569:INFO:model type: lda
+2022-11-16 22:25:58,569:INFO:Checking exceptions
+2022-11-16 22:25:58,569:INFO:Preloading libraries
+2022-11-16 22:25:58,569:INFO:Preparing display monitor
+2022-11-16 22:25:59,030:INFO:(1200, 13)
+2022-11-16 22:25:59,030:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:25:59,030:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:25:59,032:INFO:Fitting CountVectorizer()
+2022-11-16 22:25:59,101:INFO:Visual Rendered Successfully
+2022-11-16 22:25:59,101:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:26:43,938:INFO:Initializing plot_model()
+2022-11-16 22:26:43,938:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=bigram, topic_num=None, save=False, system=True)
+2022-11-16 22:26:43,938:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:26:43,938:INFO:Checking exceptions
+2022-11-16 22:26:43,938:INFO:Importing libraries
+2022-11-16 22:26:43,943:INFO:save_param set to False
+2022-11-16 22:26:43,943:INFO:plot type: bigram
+2022-11-16 22:26:43,943:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:26:43,943:INFO:Initializing assign_model()
+2022-11-16 22:26:43,943:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:26:43,943:INFO:Determining model type
+2022-11-16 22:26:43,943:INFO:model type: lda
+2022-11-16 22:26:43,943:INFO:Checking exceptions
+2022-11-16 22:26:43,943:INFO:Preloading libraries
+2022-11-16 22:26:43,943:INFO:Preparing display monitor
+2022-11-16 22:26:44,402:INFO:(1200, 13)
+2022-11-16 22:26:44,402:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:26:44,402:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:26:44,404:INFO:Fitting CountVectorizer()
+2022-11-16 22:26:44,407:INFO:Rendering Visual
+2022-11-16 22:26:44,469:INFO:Visual Rendered Successfully
+2022-11-16 22:26:44,469:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:27:14,995:INFO:Initializing plot_model()
+2022-11-16 22:27:14,996:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=trigram, topic_num=None, save=False, system=True)
+2022-11-16 22:27:14,996:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:27:14,996:INFO:Checking exceptions
+2022-11-16 22:27:14,996:INFO:Importing libraries
+2022-11-16 22:27:15,000:INFO:save_param set to False
+2022-11-16 22:27:15,000:INFO:plot type: trigram
+2022-11-16 22:27:15,000:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:27:15,001:INFO:Initializing assign_model()
+2022-11-16 22:27:15,001:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:27:15,001:INFO:Determining model type
+2022-11-16 22:27:15,001:INFO:model type: lda
+2022-11-16 22:27:15,001:INFO:Checking exceptions
+2022-11-16 22:27:15,001:INFO:Preloading libraries
+2022-11-16 22:27:15,001:INFO:Preparing display monitor
+2022-11-16 22:27:15,505:INFO:(1200, 13)
+2022-11-16 22:27:15,505:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:27:15,505:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:27:15,509:INFO:Fitting CountVectorizer()
+2022-11-16 22:27:15,511:INFO:Rendering Visual
+2022-11-16 22:27:15,549:INFO:Visual Rendered Successfully
+2022-11-16 22:27:15,550:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:27:23,211:INFO:Initializing plot_model()
+2022-11-16 22:27:23,212:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 0, save=False, system=True)
+2022-11-16 22:27:23,212:INFO:Checking exceptions
+2022-11-16 22:27:23,212:INFO:Importing libraries
+2022-11-16 22:27:23,216:INFO:save_param set to False
+2022-11-16 22:27:23,216:INFO:plot type: frequency
+2022-11-16 22:27:23,216:INFO:Rendering Visual
+2022-11-16 22:27:23,216:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:27:23,217:INFO:Initializing assign_model()
+2022-11-16 22:27:23,217:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:27:23,217:INFO:Determining model type
+2022-11-16 22:27:23,217:INFO:model type: lda
+2022-11-16 22:27:23,217:INFO:Checking exceptions
+2022-11-16 22:27:23,217:INFO:Preloading libraries
+2022-11-16 22:27:23,217:INFO:Preparing display monitor
+2022-11-16 22:27:23,656:INFO:(1200, 13)
+2022-11-16 22:27:23,657:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:27:23,657:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:27:23,658:INFO:Fitting CountVectorizer()
+2022-11-16 22:27:23,731:INFO:Visual Rendered Successfully
+2022-11-16 22:27:23,731:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:27:29,835:INFO:Initializing plot_model()
+2022-11-16 22:27:29,835:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 1, save=False, system=True)
+2022-11-16 22:27:29,835:INFO:Checking exceptions
+2022-11-16 22:27:29,835:INFO:Importing libraries
+2022-11-16 22:27:29,840:INFO:save_param set to False
+2022-11-16 22:27:29,840:INFO:plot type: frequency
+2022-11-16 22:27:29,840:INFO:Rendering Visual
+2022-11-16 22:27:29,840:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:27:29,840:INFO:Initializing assign_model()
+2022-11-16 22:27:29,840:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:27:29,840:INFO:Determining model type
+2022-11-16 22:27:29,840:INFO:model type: lda
+2022-11-16 22:27:29,840:INFO:Checking exceptions
+2022-11-16 22:27:29,840:INFO:Preloading libraries
+2022-11-16 22:27:29,840:INFO:Preparing display monitor
+2022-11-16 22:27:30,286:INFO:(1200, 13)
+2022-11-16 22:27:30,286:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:27:30,287:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:27:30,288:INFO:Fitting CountVectorizer()
+2022-11-16 22:27:30,376:INFO:Visual Rendered Successfully
+2022-11-16 22:27:30,377:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:27:44,419:INFO:Initializing plot_model()
+2022-11-16 22:27:44,419:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 2, save=False, system=True)
+2022-11-16 22:27:44,419:INFO:Checking exceptions
+2022-11-16 22:27:44,419:INFO:Importing libraries
+2022-11-16 22:27:44,423:INFO:save_param set to False
+2022-11-16 22:27:44,424:INFO:plot type: frequency
+2022-11-16 22:27:44,424:INFO:Rendering Visual
+2022-11-16 22:27:44,424:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:27:44,424:INFO:Initializing assign_model()
+2022-11-16 22:27:44,424:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:27:44,424:INFO:Determining model type
+2022-11-16 22:27:44,424:INFO:model type: lda
+2022-11-16 22:27:44,424:INFO:Checking exceptions
+2022-11-16 22:27:44,424:INFO:Preloading libraries
+2022-11-16 22:27:44,424:INFO:Preparing display monitor
+2022-11-16 22:27:44,866:INFO:(1200, 13)
+2022-11-16 22:27:44,866:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:27:44,867:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:27:44,868:INFO:Fitting CountVectorizer()
+2022-11-16 22:27:44,936:INFO:Visual Rendered Successfully
+2022-11-16 22:27:44,936:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:27:46,634:INFO:Initializing plot_model()
+2022-11-16 22:27:46,634:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 3, save=False, system=True)
+2022-11-16 22:27:46,634:INFO:Checking exceptions
+2022-11-16 22:27:46,634:INFO:Importing libraries
+2022-11-16 22:27:46,639:INFO:save_param set to False
+2022-11-16 22:27:46,639:INFO:plot type: frequency
+2022-11-16 22:27:46,639:INFO:Rendering Visual
+2022-11-16 22:27:46,639:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:27:46,639:INFO:Initializing assign_model()
+2022-11-16 22:27:46,640:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:27:46,640:INFO:Determining model type
+2022-11-16 22:27:46,640:INFO:model type: lda
+2022-11-16 22:27:46,640:INFO:Checking exceptions
+2022-11-16 22:27:46,640:INFO:Preloading libraries
+2022-11-16 22:27:46,640:INFO:Preparing display monitor
+2022-11-16 22:27:47,175:INFO:(1200, 13)
+2022-11-16 22:27:47,175:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:27:47,175:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:27:47,177:INFO:Fitting CountVectorizer()
+2022-11-16 22:27:47,230:INFO:Visual Rendered Successfully
+2022-11-16 22:27:47,230:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:28:02,514:INFO:Initializing plot_model()
+2022-11-16 22:28:02,514:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 0, save=False, system=True)
+2022-11-16 22:28:02,514:INFO:Checking exceptions
+2022-11-16 22:28:02,515:INFO:Importing libraries
+2022-11-16 22:28:02,519:INFO:save_param set to False
+2022-11-16 22:28:02,520:INFO:plot type: frequency
+2022-11-16 22:28:02,520:INFO:Rendering Visual
+2022-11-16 22:28:02,520:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:28:02,520:INFO:Initializing assign_model()
+2022-11-16 22:28:02,520:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:28:02,520:INFO:Determining model type
+2022-11-16 22:28:02,520:INFO:model type: lda
+2022-11-16 22:28:02,520:INFO:Checking exceptions
+2022-11-16 22:28:02,520:INFO:Preloading libraries
+2022-11-16 22:28:02,520:INFO:Preparing display monitor
+2022-11-16 22:28:02,972:INFO:(1200, 13)
+2022-11-16 22:28:02,973:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:28:02,973:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:28:02,974:INFO:Fitting CountVectorizer()
+2022-11-16 22:28:03,045:INFO:Visual Rendered Successfully
+2022-11-16 22:28:03,045:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:28:09,418:INFO:Initializing plot_model()
+2022-11-16 22:28:09,418:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=sentiment, topic_num=Topic 0, save=False, system=True)
+2022-11-16 22:28:09,419:INFO:Checking exceptions
+2022-11-16 22:28:09,419:INFO:Importing libraries
+2022-11-16 22:28:09,422:INFO:save_param set to False
+2022-11-16 22:28:09,422:INFO:plot type: sentiment
+2022-11-16 22:28:09,423:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:28:09,423:INFO:Initializing assign_model()
+2022-11-16 22:28:09,423:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:28:09,423:INFO:Determining model type
+2022-11-16 22:28:09,423:INFO:model type: lda
+2022-11-16 22:28:09,423:INFO:Checking exceptions
+2022-11-16 22:28:09,423:INFO:Preloading libraries
+2022-11-16 22:28:09,423:INFO:Preparing display monitor
+2022-11-16 22:28:09,881:INFO:(1200, 13)
+2022-11-16 22:28:09,881:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:28:09,881:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:28:09,915:INFO:Rendering Visual
+2022-11-16 22:28:09,988:INFO:Visual Rendered Successfully
+2022-11-16 22:28:09,988:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:28:14,418:INFO:Initializing plot_model()
+2022-11-16 22:28:14,418:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=sentiment, topic_num=Topic 1, save=False, system=True)
+2022-11-16 22:28:14,418:INFO:Checking exceptions
+2022-11-16 22:28:14,419:INFO:Importing libraries
+2022-11-16 22:28:14,423:INFO:save_param set to False
+2022-11-16 22:28:14,423:INFO:plot type: sentiment
+2022-11-16 22:28:14,423:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:28:14,424:INFO:Initializing assign_model()
+2022-11-16 22:28:14,424:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:28:14,424:INFO:Determining model type
+2022-11-16 22:28:14,424:INFO:model type: lda
+2022-11-16 22:28:14,424:INFO:Checking exceptions
+2022-11-16 22:28:14,424:INFO:Preloading libraries
+2022-11-16 22:28:14,424:INFO:Preparing display monitor
+2022-11-16 22:28:14,877:INFO:(1200, 13)
+2022-11-16 22:28:14,877:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:28:14,877:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:28:15,055:INFO:Rendering Visual
+2022-11-16 22:28:15,132:INFO:Visual Rendered Successfully
+2022-11-16 22:28:15,132:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:28:19,434:INFO:Initializing plot_model()
+2022-11-16 22:28:19,434:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=sentiment, topic_num=Topic 3, save=False, system=True)
+2022-11-16 22:28:19,434:INFO:Checking exceptions
+2022-11-16 22:28:19,434:INFO:Importing libraries
+2022-11-16 22:28:19,439:INFO:save_param set to False
+2022-11-16 22:28:19,439:INFO:plot type: sentiment
+2022-11-16 22:28:19,439:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:28:19,439:INFO:Initializing assign_model()
+2022-11-16 22:28:19,439:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:28:19,439:INFO:Determining model type
+2022-11-16 22:28:19,439:INFO:model type: lda
+2022-11-16 22:28:19,439:INFO:Checking exceptions
+2022-11-16 22:28:19,439:INFO:Preloading libraries
+2022-11-16 22:28:19,439:INFO:Preparing display monitor
+2022-11-16 22:28:19,962:INFO:(1200, 13)
+2022-11-16 22:28:19,962:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:28:19,963:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:28:20,056:INFO:Rendering Visual
+2022-11-16 22:28:20,094:INFO:Visual Rendered Successfully
+2022-11-16 22:28:20,095:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:28:23,674:INFO:Initializing plot_model()
+2022-11-16 22:28:23,674:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=sentiment, topic_num=Topic 2, save=False, system=True)
+2022-11-16 22:28:23,674:INFO:Checking exceptions
+2022-11-16 22:28:23,674:INFO:Importing libraries
+2022-11-16 22:28:23,751:INFO:save_param set to False
+2022-11-16 22:28:23,751:INFO:plot type: sentiment
+2022-11-16 22:28:23,751:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:28:23,752:INFO:Initializing assign_model()
+2022-11-16 22:28:23,752:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:28:23,752:INFO:Determining model type
+2022-11-16 22:28:23,752:INFO:model type: lda
+2022-11-16 22:28:23,752:INFO:Checking exceptions
+2022-11-16 22:28:23,752:INFO:Preloading libraries
+2022-11-16 22:28:23,752:INFO:Preparing display monitor
+2022-11-16 22:28:24,219:INFO:(1200, 13)
+2022-11-16 22:28:24,219:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:28:24,219:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:28:24,222:INFO:Rendering Visual
+2022-11-16 22:28:24,291:INFO:Visual Rendered Successfully
+2022-11-16 22:28:24,291:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:28:29,594:INFO:Initializing plot_model()
+2022-11-16 22:28:29,594:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=wordcloud, topic_num=Topic 2, save=False, system=True)
+2022-11-16 22:28:29,594:INFO:Checking exceptions
+2022-11-16 22:28:29,594:INFO:Importing libraries
+2022-11-16 22:28:29,600:INFO:save_param set to False
+2022-11-16 22:28:29,600:INFO:plot type: wordcloud
+2022-11-16 22:28:29,600:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:28:29,600:INFO:Initializing assign_model()
+2022-11-16 22:28:29,601:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:28:29,601:INFO:Determining model type
+2022-11-16 22:28:29,601:INFO:model type: lda
+2022-11-16 22:28:29,601:INFO:Checking exceptions
+2022-11-16 22:28:29,601:INFO:Preloading libraries
+2022-11-16 22:28:29,601:INFO:Preparing display monitor
+2022-11-16 22:28:30,144:INFO:(1200, 13)
+2022-11-16 22:28:30,144:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:28:30,144:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:28:30,146:INFO:Fitting WordCloud()
+2022-11-16 22:28:30,888:INFO:Rendering Visual
+2022-11-16 22:28:31,076:INFO:Visual Rendered Successfully
+2022-11-16 22:28:31,077:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:28:41,234:INFO:Initializing plot_model()
+2022-11-16 22:28:41,234:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=bigram, topic_num=Topic 2, save=False, system=True)
+2022-11-16 22:28:41,234:INFO:Checking exceptions
+2022-11-16 22:28:41,235:INFO:Importing libraries
+2022-11-16 22:28:41,238:INFO:save_param set to False
+2022-11-16 22:28:41,239:INFO:plot type: bigram
+2022-11-16 22:28:41,239:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:28:41,239:INFO:Initializing assign_model()
+2022-11-16 22:28:41,239:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:28:41,239:INFO:Determining model type
+2022-11-16 22:28:41,239:INFO:model type: lda
+2022-11-16 22:28:41,239:INFO:Checking exceptions
+2022-11-16 22:28:41,239:INFO:Preloading libraries
+2022-11-16 22:28:41,239:INFO:Preparing display monitor
+2022-11-16 22:28:41,702:INFO:(1200, 13)
+2022-11-16 22:28:41,772:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:28:41,772:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:28:41,774:INFO:Fitting CountVectorizer()
+2022-11-16 22:28:41,775:INFO:Rendering Visual
+2022-11-16 22:28:41,834:INFO:Visual Rendered Successfully
+2022-11-16 22:28:41,835:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:28:50,010:INFO:Initializing plot_model()
+2022-11-16 22:28:50,010:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=umap, topic_num=None, save=False, system=True)
+2022-11-16 22:28:50,010:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:28:50,010:INFO:Checking exceptions
+2022-11-16 22:28:50,011:INFO:Importing libraries
+2022-11-16 22:28:50,014:INFO:save_param set to False
+2022-11-16 22:28:50,014:INFO:plot type: umap
+2022-11-16 22:28:53,289:INFO:Fitting TfidfVectorizer()
+2022-11-16 22:28:53,317:INFO:Fitting KMeans()
+2022-11-16 22:28:53,570:INFO:Fitting UMAP()
+2022-11-16 22:29:00,551:INFO:Rendering Visual
+2022-11-16 22:29:00,672:INFO:Visual Rendered Successfully
+2022-11-16 22:29:00,673:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:29:00,711:INFO:Initializing plot_model()
+2022-11-16 22:29:00,711:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=sentiment, topic_num=None, save=False, system=True)
+2022-11-16 22:29:00,711:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:29:00,711:INFO:Checking exceptions
+2022-11-16 22:29:00,711:INFO:Importing libraries
+2022-11-16 22:29:00,726:INFO:save_param set to False
+2022-11-16 22:29:00,726:INFO:plot type: sentiment
+2022-11-16 22:29:00,726:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:29:00,727:INFO:Initializing assign_model()
+2022-11-16 22:29:00,727:INFO:assign_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:29:00,727:INFO:Determining model type
+2022-11-16 22:29:00,727:INFO:model type: lda
+2022-11-16 22:29:00,727:INFO:Checking exceptions
+2022-11-16 22:29:00,727:INFO:Preloading libraries
+2022-11-16 22:29:00,727:INFO:Preparing display monitor
+2022-11-16 22:29:01,223:INFO:(1200, 13)
+2022-11-16 22:29:01,223:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:29:01,223:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:29:01,230:INFO:Rendering Visual
+2022-11-16 22:29:01,266:INFO:Visual Rendered Successfully
+2022-11-16 22:29:01,266:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:29:10,266:INFO:Initializing plot_model()
+2022-11-16 22:29:10,266:INFO:plot_model(model=LdaModel(num_terms=3936, num_topics=4, decay=0.5, chunksize=100), plot=topic_model, topic_num=None, save=False, system=True)
+2022-11-16 22:29:10,266:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:29:10,266:INFO:Checking exceptions
+2022-11-16 22:29:10,266:INFO:Importing libraries
+2022-11-16 22:29:10,271:INFO:save_param set to False
+2022-11-16 22:29:10,271:INFO:plot type: topic_model
+2022-11-16 22:29:36,530:INFO:PyCaret NLP Module
+2022-11-16 22:29:36,530:INFO:version 2.3.10
+2022-11-16 22:29:36,530:INFO:Initializing setup()
+2022-11-16 22:29:36,530:INFO:USI: 226d
+2022-11-16 22:29:36,531:INFO:setup(data=(1200, 7), target=text, custom_stopwords=['make', 'room', 'hotel', 'stay', 'good', 'bad', 'und', 'der', 'great', 'go', 'lot', 'staff'], html=True, session_id=1213, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-11-16 22:29:36,531:INFO:Checking environment
+2022-11-16 22:29:36,531:INFO:python_version: 3.8.15
+2022-11-16 22:29:36,531:INFO:python_build: ('default', 'Nov 10 2022 13:17:42')
+2022-11-16 22:29:36,531:INFO:machine: x86_64
+2022-11-16 22:29:36,531:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-11-16 22:29:36,531:INFO:Memory: svmem(total=25769803776, available=11745136640, percent=54.4, used=13986574336, free=538681344, active=11207905280, inactive=10374328320, wired=2778669056)
+2022-11-16 22:29:36,531:INFO:Physical Core: 4
+2022-11-16 22:29:36,531:INFO:Logical Core: 4
+2022-11-16 22:29:36,531:INFO:Checking libraries
+2022-11-16 22:29:36,531:INFO:pd==1.5.1
+2022-11-16 22:29:36,531:INFO:numpy==1.20.3
+2022-11-16 22:29:36,531:INFO:gensim==3.8.3
+2022-11-16 22:29:36,531:INFO:spacy==2.2.4
+2022-11-16 22:29:36,531:INFO:nltk==3.7
+2022-11-16 22:29:36,531:INFO:textblob==0.17.1
+2022-11-16 22:29:36,532:INFO:pyLDAvis==3.3.1
+2022-11-16 22:29:36,532:INFO:wordcloud==1.8.2.2
+2022-11-16 22:29:36,532:INFO:mlflow==1.30.0
+2022-11-16 22:29:36,532:INFO:Checking Exceptions
+2022-11-16 22:29:36,851:INFO:Preloading libraries
+2022-11-16 22:29:36,851:INFO:Preparing display monitor
+2022-11-16 22:29:36,862:INFO:Importing libraries
+2022-11-16 22:29:36,862:INFO:Declaring global variables
+2022-11-16 22:29:36,862:INFO:Input provided : dataframe
+2022-11-16 22:29:36,863:INFO:session_id set to : 1213
+2022-11-16 22:29:36,863:INFO:Copying training dataset
+2022-11-16 22:29:36,863:INFO:Importing stopwords from nltk
+2022-11-16 22:29:36,865:INFO:Removing numeric characters from the text
+2022-11-16 22:29:36,878:INFO:Removing special characters from the text
+2022-11-16 22:29:36,960:INFO:Tokenizing Words
+2022-11-16 22:29:37,102:INFO:Removing stopwords
+2022-11-16 22:29:37,216:INFO:Extracting Bigrams
+2022-11-16 22:29:37,553:INFO:Extracting Trigrams
+2022-11-16 22:29:38,069:INFO:Lemmatizing tokens
+2022-11-16 22:29:41,395:INFO:Removing stopwords after lemmatizing
+2022-11-16 22:29:41,458:INFO:Creating corpus and dictionary
+2022-11-16 22:29:41,510:INFO:Compiling processed text
+2022-11-16 22:29:41,512:INFO:Compiling information grid
+2022-11-16 22:29:41,516:INFO:setup() succesfully completed......................................
+2022-11-16 22:29:44,633:INFO:Initializing create_model()
+2022-11-16 22:29:44,634:INFO:create_model(model=lda, multi_core=False, num_topics=4, verbose=True, system=True)
+2022-11-16 22:29:44,634:INFO:Checking exceptions
+2022-11-16 22:29:44,634:INFO:Preloading libraries
+2022-11-16 22:29:44,634:INFO:Preparing display monitor
+2022-11-16 22:29:44,644:INFO:Defining topic model
+2022-11-16 22:29:44,644:INFO:Model: Latent Dirichlet Allocation
+2022-11-16 22:29:44,645:INFO:Defining num_topics parameter
+2022-11-16 22:29:44,645:INFO:num_topics set to: 4
+2022-11-16 22:29:44,649:INFO:LdaModel imported successfully
+2022-11-16 22:29:46,622:INFO:LdaModel trained successfully
+2022-11-16 22:29:46,623:INFO:LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100)
+2022-11-16 22:29:46,623:INFO:create_model() succesfully completed......................................
+2022-11-16 22:29:48,265:INFO:Initializing assign_model()
+2022-11-16 22:29:48,266:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-11-16 22:29:48,266:INFO:Determining model type
+2022-11-16 22:29:48,266:INFO:model type: lda
+2022-11-16 22:29:48,266:INFO:Checking exceptions
+2022-11-16 22:29:48,266:INFO:Preloading libraries
+2022-11-16 22:29:48,266:INFO:Preparing display monitor
+2022-11-16 22:29:48,772:INFO:(1200, 13)
+2022-11-16 22:29:48,772:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:29:53,481:INFO:Initializing plot_model()
+2022-11-16 22:29:53,481:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=None, save=False, system=True)
+2022-11-16 22:29:53,482:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:29:53,482:INFO:Checking exceptions
+2022-11-16 22:29:53,482:INFO:Importing libraries
+2022-11-16 22:29:53,487:INFO:save_param set to False
+2022-11-16 22:29:53,487:INFO:plot type: frequency
+2022-11-16 22:29:53,487:INFO:Rendering Visual
+2022-11-16 22:29:53,487:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:29:53,487:INFO:Initializing assign_model()
+2022-11-16 22:29:53,487:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:29:53,487:INFO:Determining model type
+2022-11-16 22:29:53,487:INFO:model type: lda
+2022-11-16 22:29:53,488:INFO:Checking exceptions
+2022-11-16 22:29:53,488:INFO:Preloading libraries
+2022-11-16 22:29:53,488:INFO:Preparing display monitor
+2022-11-16 22:29:53,936:INFO:(1200, 13)
+2022-11-16 22:29:53,936:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:29:53,936:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:29:53,937:INFO:Fitting CountVectorizer()
+2022-11-16 22:29:54,010:INFO:Visual Rendered Successfully
+2022-11-16 22:29:54,010:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:30:05,299:INFO:Initializing plot_model()
+2022-11-16 22:30:05,299:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=bigram, topic_num=None, save=False, system=True)
+2022-11-16 22:30:05,299:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:30:05,299:INFO:Checking exceptions
+2022-11-16 22:30:05,299:INFO:Importing libraries
+2022-11-16 22:30:05,304:INFO:save_param set to False
+2022-11-16 22:30:05,304:INFO:plot type: bigram
+2022-11-16 22:30:05,304:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:30:05,304:INFO:Initializing assign_model()
+2022-11-16 22:30:05,304:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:30:05,304:INFO:Determining model type
+2022-11-16 22:30:05,304:INFO:model type: lda
+2022-11-16 22:30:05,304:INFO:Checking exceptions
+2022-11-16 22:30:05,304:INFO:Preloading libraries
+2022-11-16 22:30:05,304:INFO:Preparing display monitor
+2022-11-16 22:30:05,795:INFO:(1200, 13)
+2022-11-16 22:30:05,795:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:30:05,795:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:30:05,797:INFO:Fitting CountVectorizer()
+2022-11-16 22:30:05,808:INFO:Rendering Visual
+2022-11-16 22:30:05,844:INFO:Visual Rendered Successfully
+2022-11-16 22:30:05,844:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:30:13,850:INFO:Initializing plot_model()
+2022-11-16 22:30:13,850:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=trigram, topic_num=None, save=False, system=True)
+2022-11-16 22:30:13,850:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:30:13,850:INFO:Checking exceptions
+2022-11-16 22:30:13,850:INFO:Importing libraries
+2022-11-16 22:30:13,855:INFO:save_param set to False
+2022-11-16 22:30:13,855:INFO:plot type: trigram
+2022-11-16 22:30:13,855:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:30:13,855:INFO:Initializing assign_model()
+2022-11-16 22:30:13,856:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:30:13,856:INFO:Determining model type
+2022-11-16 22:30:13,856:INFO:model type: lda
+2022-11-16 22:30:13,856:INFO:Checking exceptions
+2022-11-16 22:30:13,856:INFO:Preloading libraries
+2022-11-16 22:30:13,856:INFO:Preparing display monitor
+2022-11-16 22:30:14,314:INFO:(1200, 13)
+2022-11-16 22:30:14,314:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:30:14,315:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:30:14,321:INFO:Fitting CountVectorizer()
+2022-11-16 22:30:14,327:INFO:Rendering Visual
+2022-11-16 22:30:14,398:INFO:Visual Rendered Successfully
+2022-11-16 22:30:14,398:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:30:38,034:INFO:Initializing plot_model()
+2022-11-16 22:30:38,034:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 0, save=False, system=True)
+2022-11-16 22:30:38,034:INFO:Checking exceptions
+2022-11-16 22:30:38,034:INFO:Importing libraries
+2022-11-16 22:30:38,039:INFO:save_param set to False
+2022-11-16 22:30:38,039:INFO:plot type: frequency
+2022-11-16 22:30:38,039:INFO:Rendering Visual
+2022-11-16 22:30:38,039:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:30:38,039:INFO:Initializing assign_model()
+2022-11-16 22:30:38,039:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:30:38,039:INFO:Determining model type
+2022-11-16 22:30:38,039:INFO:model type: lda
+2022-11-16 22:30:38,039:INFO:Checking exceptions
+2022-11-16 22:30:38,039:INFO:Preloading libraries
+2022-11-16 22:30:38,039:INFO:Preparing display monitor
+2022-11-16 22:30:38,503:INFO:(1200, 13)
+2022-11-16 22:30:38,503:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:30:38,503:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:30:38,504:INFO:Fitting CountVectorizer()
+2022-11-16 22:30:38,574:INFO:Visual Rendered Successfully
+2022-11-16 22:30:38,574:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:30:44,954:INFO:Initializing plot_model()
+2022-11-16 22:30:44,954:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 1, save=False, system=True)
+2022-11-16 22:30:44,954:INFO:Checking exceptions
+2022-11-16 22:30:44,954:INFO:Importing libraries
+2022-11-16 22:30:44,959:INFO:save_param set to False
+2022-11-16 22:30:44,959:INFO:plot type: frequency
+2022-11-16 22:30:44,959:INFO:Rendering Visual
+2022-11-16 22:30:44,959:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:30:44,959:INFO:Initializing assign_model()
+2022-11-16 22:30:44,959:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:30:44,959:INFO:Determining model type
+2022-11-16 22:30:44,959:INFO:model type: lda
+2022-11-16 22:30:44,959:INFO:Checking exceptions
+2022-11-16 22:30:44,959:INFO:Preloading libraries
+2022-11-16 22:30:44,960:INFO:Preparing display monitor
+2022-11-16 22:30:45,459:INFO:(1200, 13)
+2022-11-16 22:30:45,459:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:30:45,459:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:30:45,460:INFO:Fitting CountVectorizer()
+2022-11-16 22:30:45,535:INFO:Visual Rendered Successfully
+2022-11-16 22:30:45,535:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:30:56,026:INFO:Initializing plot_model()
+2022-11-16 22:30:56,026:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 2, save=False, system=True)
+2022-11-16 22:30:56,026:INFO:Checking exceptions
+2022-11-16 22:30:56,026:INFO:Importing libraries
+2022-11-16 22:30:56,030:INFO:save_param set to False
+2022-11-16 22:30:56,030:INFO:plot type: frequency
+2022-11-16 22:30:56,030:INFO:Rendering Visual
+2022-11-16 22:30:56,030:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:30:56,031:INFO:Initializing assign_model()
+2022-11-16 22:30:56,031:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:30:56,031:INFO:Determining model type
+2022-11-16 22:30:56,031:INFO:model type: lda
+2022-11-16 22:30:56,031:INFO:Checking exceptions
+2022-11-16 22:30:56,031:INFO:Preloading libraries
+2022-11-16 22:30:56,031:INFO:Preparing display monitor
+2022-11-16 22:30:56,471:INFO:(1200, 13)
+2022-11-16 22:30:56,471:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:30:56,471:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:30:56,472:INFO:Fitting CountVectorizer()
+2022-11-16 22:30:56,554:INFO:Visual Rendered Successfully
+2022-11-16 22:30:56,554:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:31:00,154:INFO:Initializing plot_model()
+2022-11-16 22:31:00,154:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 3, save=False, system=True)
+2022-11-16 22:31:00,154:INFO:Checking exceptions
+2022-11-16 22:31:00,154:INFO:Importing libraries
+2022-11-16 22:31:00,158:INFO:save_param set to False
+2022-11-16 22:31:00,158:INFO:plot type: frequency
+2022-11-16 22:31:00,159:INFO:Rendering Visual
+2022-11-16 22:31:00,159:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:31:00,159:INFO:Initializing assign_model()
+2022-11-16 22:31:00,159:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:31:00,159:INFO:Determining model type
+2022-11-16 22:31:00,159:INFO:model type: lda
+2022-11-16 22:31:00,159:INFO:Checking exceptions
+2022-11-16 22:31:00,159:INFO:Preloading libraries
+2022-11-16 22:31:00,159:INFO:Preparing display monitor
+2022-11-16 22:31:00,613:INFO:(1200, 13)
+2022-11-16 22:31:00,613:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:31:00,614:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:31:00,615:INFO:Fitting CountVectorizer()
+2022-11-16 22:31:00,680:INFO:Visual Rendered Successfully
+2022-11-16 22:31:00,680:INFO:plot_model() succesfully completed......................................
+2022-11-16 22:31:11,729:INFO:Initializing plot_model()
+2022-11-16 22:31:11,729:INFO:plot_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), plot=topic_distribution, topic_num=None, save=False, system=True)
+2022-11-16 22:31:11,729:INFO:Topic selected. topic_num : Topic 0
+2022-11-16 22:31:11,729:INFO:Checking exceptions
+2022-11-16 22:31:11,729:INFO:Importing libraries
+2022-11-16 22:31:11,734:INFO:save_param set to False
+2022-11-16 22:31:11,734:INFO:plot type: topic_distribution
+2022-11-16 22:31:11,735:INFO:SubProcess assign_model() called ==================================
+2022-11-16 22:31:11,736:INFO:Initializing assign_model()
+2022-11-16 22:31:11,736:INFO:assign_model(model=LdaModel(num_terms=3931, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-11-16 22:31:11,736:INFO:Determining model type
+2022-11-16 22:31:11,736:INFO:model type: lda
+2022-11-16 22:31:11,736:INFO:Checking exceptions
+2022-11-16 22:31:11,736:INFO:Preloading libraries
+2022-11-16 22:31:11,736:INFO:Preparing display monitor
+2022-11-16 22:31:12,205:INFO:(1200, 13)
+2022-11-16 22:31:12,205:INFO:assign_model() succesfully completed......................................
+2022-11-16 22:31:12,205:INFO:SubProcess assign_model() end ==================================
+2022-11-16 22:31:12,210:INFO:Sorting Dataframe
+2022-11-16 22:31:12,211:INFO:Rendering Visual
+2022-11-16 22:31:12,340:INFO:Visual Rendered Successfully
+2022-11-16 22:31:12,340:INFO:plot_model() succesfully completed......................................
